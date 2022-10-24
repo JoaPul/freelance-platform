@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>chrome_header</name>
+        <page display_value="">b39b6b13f7e2111064289cfe5ffaa1c4</page>
+        <required_translations>[]</required_translations>
+        <route display_value="Landing Page">b79b6b136ce211103745345fe18352e8</route>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-10-20 18:00:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>b79b6b132de211103d84b00c3e75cdc6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="Freelance Platform" source="x_895127_freelance">bfb041721b221110215355f0604bcb7b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope>
+        <sys_update_name>sys_ux_page_property_b79b6b132de211103d84b00c3e75cdc6</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-10-20 18:00:56</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_895127_freelance.b39b6b13f7e2111064289cfe5ffaa1c4.route.chrome_header.b79b6b136ce211103745345fe18352e8</unique_name>
+        <value>{&#13;
+    "privatePage":{&#13;
+       "searchEnabled": false&#13;
+    }&#13;
+}</value>
+    </sys_ux_page_property>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</application>
+        <file_path/>
+        <instance_id>2e74f26adbd5c9107527d7c8f4961978</instance_id>
+        <instance_name>dev123103</instance_name>
+        <name>sys_ux_page_property_b79b6b132de211103d84b00c3e75cdc6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description/><name>chrome_header</name><page display_value="">b39b6b13f7e2111064289cfe5ffaa1c4</page><required_translations>[]</required_translations><route display_value="Landing Page">b79b6b136ce211103745345fe18352e8</route><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2022-10-20 18:00:56</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>b79b6b132de211103d84b00c3e75cdc6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>chrome_header</sys_name><sys_package display_value="Freelance Platform" source="x_895127_freelance">bfb041721b221110215355f0604bcb7b</sys_package><sys_policy/><sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope><sys_update_name>sys_ux_page_property_b79b6b132de211103d84b00c3e75cdc6</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2022-10-20 18:00:56</sys_updated_on><type>json</type><unique_name>x_895127_freelance.b39b6b13f7e2111064289cfe5ffaa1c4.route.chrome_header.b79b6b136ce211103745345fe18352e8</unique_name><value>{&#13;
+    "privatePage":{&#13;
+       "searchEnabled": false&#13;
+    }&#13;
+}</value></sys_ux_page_property></record_update>]]></payload>
+        <payload_hash>-471105221</payload_hash>
+        <record_name>chrome_header</record_name>
+        <reverted_from/>
+        <source>6d96f4f2472211105da1da97436d43dd</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2022-10-18 15:32:58</sys_created_on>
+        <sys_id>e77a372c477211105da1da97436d4365</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>183ebb9fc100000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Page Property</type>
+        <update_guid>a77a372c4e721110da4ed43fa4eb9665</update_guid>
+        <update_guid_history>a77a372c4e721110da4ed43fa4eb9665:-471105221</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-24 16:18:16</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>440393412b10499693a3bfdf280ca911</sys_id>
+        <sys_metadata>b79b6b132de211103d84b00c3e75cdc6</sys_metadata>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="Freelance Platform" source="x_895127_freelance">bfb041721b221110215355f0604bcb7b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope>
+        <sys_scope_delete display_value="">9a0d25254005466f92e02c9b6b125009</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_b79b6b132de211103d84b00c3e75cdc6</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_b79b6b132de211103d84b00c3e75cdc6">e77a372c477211105da1da97436d4365</sys_update_version>
+    </sys_metadata_delete>
+</record_update>
