@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_datasource">
+    <sys_ux_composite_data_m2m_datasource action="INSERT_OR_UPDATE">
+        <dataset display_value="Custom Portal Landing - Popular Articles">739b6b13dfe2111024a47b4ce68f0ee5</dataset>
+        <datasource display_value="Custom Portal Landing - Popular articles Datasource">fb9b6b135ce21110f1351ae8635f9fe4</datasource>
+        <sys_class_name>sys_ux_composite_data_m2m_datasource</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-10-20 18:00:57</sys_created_on>
+        <sys_id>339b6b1391e211100d62c3965632cce4</sys_id>
+        <sys_name/>
+        <sys_package display_value="Freelance Platform" source="x_895127_freelance">bfb041721b221110215355f0604bcb7b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope>
+        <sys_update_name>sys_ux_composite_data_m2m_datasource_339b6b1391e211100d62c3965632cce4</sys_update_name>
+    </sys_ux_composite_data_m2m_datasource>
+</record_update>
