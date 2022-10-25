@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Sign In">8927407847b211105da1da97436d4308</sc_cat_item>
+        <sc_catalog display_value="Resources">8752afd953133300a8ed21fac2dc34ac</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-24 17:15:32</sys_created_on>
+        <sys_id>1297487847b211105da1da97436d4379</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Resources.Sign In</sys_name>
+        <sys_package display_value="Freelance Platform" source="x_895127_freelance">bfb041721b221110215355f0604bcb7b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_1297487847b211105da1da97436d4379</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-24 17:15:32</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</application>
+        <file_path/>
+        <instance_id>2e74f26adbd5c9107527d7c8f4961978</instance_id>
+        <instance_name>dev123103</instance_name>
+        <name>sc_cat_item_catalog_1297487847b211105da1da97436d4379</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Sign In">8927407847b211105da1da97436d4308</sc_cat_item><sc_catalog display_value="Resources">8752afd953133300a8ed21fac2dc34ac</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-10-24 17:15:32</sys_created_on><sys_id>1297487847b211105da1da97436d4379</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Resources.Sign In</sys_name><sys_package display_value="Freelance Platform" source="x_895127_freelance">bfb041721b221110215355f0604bcb7b</sys_package><sys_policy/><sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope><sys_update_name>sc_cat_item_catalog_1297487847b211105da1da97436d4379</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-10-24 17:15:32</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>-1422897090</payload_hash>
+        <record_name>Resources.Sign In</record_name>
+        <reverted_from/>
+        <source>8022dd7e472611105da1da97436d43c7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-24 17:15:32</sys_created_on>
+        <sys_id>9297487847b211105da1da97436d437c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1840afe0d030000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-24 17:15:32</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>1a9748789fb2111021b6e14caac1ec7b</update_guid>
+        <update_guid_history>1a9748789fb2111021b6e14caac1ec7b:-1422897090</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Resources.Sign In">e5f78c7847b211105da1da97436d43fe</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-24 17:17:07</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>4a2edec1ea524021a98920c482139eb1</sys_id>
+        <sys_metadata>1297487847b211105da1da97436d4379</sys_metadata>
+        <sys_name>Resources.Sign In</sys_name>
+        <sys_package display_value="Freelance Platform" source="x_895127_freelance">bfb041721b221110215355f0604bcb7b</sys_package>
+        <sys_parent display_value="">8927407847b211105da1da97436d4308</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope>
+        <sys_scope_delete display_value="">9a0d25254005466f92e02c9b6b125009</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_1297487847b211105da1da97436d4379</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_1297487847b211105da1da97436d4379">9297487847b211105da1da97436d437c</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

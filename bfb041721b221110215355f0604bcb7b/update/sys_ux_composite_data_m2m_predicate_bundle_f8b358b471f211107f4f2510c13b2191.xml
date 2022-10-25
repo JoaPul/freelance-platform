@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_predicate_bundle">
+    <sys_ux_composite_data_m2m_predicate_bundle action="INSERT_OR_UPDATE">
+        <dataset display_value="Custom Portal Catalog Item page - Related Items dataset">30b358b4cdf211103d48007296155e93</dataset>
+        <order/>
+        <predicate_bundle display_value="Custom portal - Related items">b0b358b4d3f2111024ae725bc979e192</predicate_bundle>
+        <sys_class_name>sys_ux_composite_data_m2m_predicate_bundle</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-10-24 18:08:26</sys_created_on>
+        <sys_id>f8b358b471f211107f4f2510c13b2191</sys_id>
+        <sys_name/>
+        <sys_package display_value="Freelance Platform" source="x_895127_freelance">bfb041721b221110215355f0604bcb7b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope>
+        <sys_update_name>sys_ux_composite_data_m2m_predicate_bundle_f8b358b471f211107f4f2510c13b2191</sys_update_name>
+    </sys_ux_composite_data_m2m_predicate_bundle>
+</record_update>
