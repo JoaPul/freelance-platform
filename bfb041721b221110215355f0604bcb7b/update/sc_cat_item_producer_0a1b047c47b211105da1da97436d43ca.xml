@@ -30,7 +30,7 @@
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
-        <name>Sign In</name>
+        <name>Sign In OLD</name>
         <no_attachment_v2>false</no_attachment_v2>
         <no_cart>false</no_cart>
         <no_cart_v2>false</no_cart_v2>
@@ -87,7 +87,7 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-10-24 17:30:48</sys_created_on>
         <sys_id>0a1b047c47b211105da1da97436d43ca</sys_id>
-        <sys_name>Sign In</sys_name>
+        <sys_name>Sign In OLD</sys_name>
         <sys_package display_value="Freelance Platform" source="x_895127_freelance">bfb041721b221110215355f0604bcb7b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope>
