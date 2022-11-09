@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>global_search_configurations</name>
+        <page display_value="">0415e22b5a7211100e043ee0ac8c9b63</page>
+        <required_translations/>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-11-02 17:46:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>8c15e22b2f721110c2e0e80a54b06365</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>global_search_configurations</sys_name>
+        <sys_package display_value="Freelance Platform" source="x_895127_freelance">bfb041721b221110215355f0604bcb7b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope>
+        <sys_update_name>sys_ux_page_property_8c15e22b2f721110c2e0e80a54b06365</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-11-02 17:46:49</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_895127_freelance.0415e22b5a7211100e043ee0ac8c9b63.root.global_search_configurations</unique_name>
+        <value>{&#13;
+  "globalSearchContextConfigId": "00731b9d5b231010d9a5ce1a8581c7dd"&#13;
+}</value>
+    </sys_ux_page_property>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</application>
+        <file_path/>
+        <instance_id>2e74f26adbd5c9107527d7c8f4961978</instance_id>
+        <instance_name>dev123103</instance_name>
+        <name>sys_ux_page_property_8c15e22b2f721110c2e0e80a54b06365</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description/><name>global_search_configurations</name><page display_value="">0415e22b5a7211100e043ee0ac8c9b63</page><required_translations/><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2022-11-02 17:46:49</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>8c15e22b2f721110c2e0e80a54b06365</sys_id><sys_mod_count>0</sys_mod_count><sys_name>global_search_configurations</sys_name><sys_package display_value="Freelance Platform" source="x_895127_freelance">bfb041721b221110215355f0604bcb7b</sys_package><sys_policy/><sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope><sys_update_name>sys_ux_page_property_8c15e22b2f721110c2e0e80a54b06365</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2022-11-02 17:46:49</sys_updated_on><type>json</type><unique_name>x_895127_freelance.0415e22b5a7211100e043ee0ac8c9b63.root.global_search_configurations</unique_name><value>{&#13;
+  "globalSearchContextConfigId": "00731b9d5b231010d9a5ce1a8581c7dd"&#13;
+}</value></sys_ux_page_property></record_update>]]></payload>
+        <payload_hash>-128625080</payload_hash>
+        <record_name>global_search_configurations</record_name>
+        <reverted_from/>
+        <source>6d96f4f2472211105da1da97436d43dd</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2022-10-18 15:32:58</sys_created_on>
+        <sys_id>c04d900447c311105da1da97436d4320</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>183ebb9fc100000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Page Property</type>
+        <update_guid>804d90040fc31110d298b056359ea720</update_guid>
+        <update_guid_history>804d90040fc31110d298b056359ea720:-128625080</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-03 21:10:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>d471c0181ce240f3b522bc4642bc5e09</sys_id>
+        <sys_metadata>8c15e22b2f721110c2e0e80a54b06365</sys_metadata>
+        <sys_name>global_search_configurations</sys_name>
+        <sys_package display_value="Freelance Platform" source="x_895127_freelance">bfb041721b221110215355f0604bcb7b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope>
+        <sys_scope_delete display_value="">9a0d25254005466f92e02c9b6b125009</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_8c15e22b2f721110c2e0e80a54b06365</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_8c15e22b2f721110c2e0e80a54b06365">c04d900447c311105da1da97436d4320</sys_update_version>
+    </sys_metadata_delete>
+</record_update>
