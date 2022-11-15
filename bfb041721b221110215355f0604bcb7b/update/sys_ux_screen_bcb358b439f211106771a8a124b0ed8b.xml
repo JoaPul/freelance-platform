@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="Freelance Platform Config">f4b358b447f211105da1da97436d4363</app_config>
+        <description/>
+        <event_mappings>[ {
+  "eventMappingId" : "ckfhhjjlptggaaaaddoddhhhaccckywbbhhz",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "x_895127_freelance.MODAL_SELECTED_RELAY_f8b358b4cef211101b411cdbe69f7c8e",
+  "sourceEventDefinition" : {
+    "apiName" : "x_895127_freelance.MODAL_SELECTED_RELAY_f8b358b4cef211101b411cdbe69f7c8e",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "sn_canvas_core.MODAL_SELECTED",
+      "payload" : {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "modalId" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "modalId" ]
+            }
+          },
+          "showModal" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "showModal" ]
+            }
+          },
+          "displayOptions" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "displayOptions" ]
+            }
+          },
+          "bare" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "bare" ]
+            }
+          }
+        }
+      },
+      "sysId" : "882eed4091382d3a41f1bb3f382ae089"
+    },
+    "operation" : null,
+    "targetId" : "ckfhhjjlptffaaaaddnddhhhaiffabjjadd",
+    "type" : "EVENT"
+  } ]
+} ]</event_mappings>
+        <macroponent display_value="Security &amp; sign-in">f8b358b4cef211101b411cdbe69f7c8e</macroponent>
+        <macroponent_config>{
+  "label" : "",
+  "bare" : true,
+  "scrollable" : "none",
+  "headerLevel" : "2",
+  "interceptNotifications" : false,
+  "propagateNotifications" : false
+}</macroponent_config>
+        <name>Security and login Default</name>
+        <order>0</order>
+        <parent_macroponent display_value="Settings Page">74b358b4edf21110463fe3cdc7cb8598</parent_macroponent>
+        <required_translations>[]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="Security and login">70b358b4f2f2111050f914fc9ecc2797</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-10-24 18:08:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bcb358b439f211106771a8a124b0ed8b</sys_id>
+        <sys_name>Security and login Default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Freelance Platform" source="x_895127_freelance">bfb041721b221110215355f0604bcb7b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope>
+        <sys_update_name>sys_ux_screen_bcb358b439f211106771a8a124b0ed8b</sys_update_name>
+    </sys_ux_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=bcb358b439f211106771a8a124b0ed8b"/>
+</record_update>

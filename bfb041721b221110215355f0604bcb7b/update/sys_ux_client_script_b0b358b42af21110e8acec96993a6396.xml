@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Landing Page">b8b358b491f21110ffe6b08eb6c19299</macroponent>
+        <name>Card click redirection for My requests</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[function handler({
+    api,
+    event,
+    imports
+}) {
+    const {
+        setState,
+        emit
+    } = api;
+
+    const table = event.payload.table;
+    const sysId = event.payload.sysId;
+    const route = "record_request";
+
+    if (table === "sc_req_item") {
+        emit('NAV_ITEM_SELECTED', {
+            route,
+            fields: {
+                table,
+                sysId
+            }
+        });
+    } else if(table == "incident"){
+        emit('NAV_ITEM_SELECTED', {
+            route,
+            fields: {
+                table: "incident",
+                sysId
+            }
+        });
+    }
+    else{
+        emit('NAV_ITEM_SELECTED', {
+            route,
+            fields: {
+                table: "task",
+                sysId
+            }
+        });
+    }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-10-24 18:08:27</sys_created_on>
+        <sys_id>b0b358b42af21110e8acec96993a6396</sys_id>
+        <sys_name>Card click redirection for My requests</sys_name>
+        <sys_package display_value="Freelance Platform" source="x_895127_freelance">bfb041721b221110215355f0604bcb7b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope>
+        <sys_update_name>sys_ux_client_script_b0b358b42af21110e8acec96993a6396</sys_update_name>
+        <target/>
+        <type/>
+    </sys_ux_client_script>
+</record_update>
