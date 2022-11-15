@@ -101,7 +101,7 @@
   </div>
   <div>
   	First Name
-    <input type="text" id="firstName" name="firstName" ng-model="c.firstName">
+    <input class:"lastName" type="text" id="firstName" name="firstName" ng-model="c.firstName">
   </div>
    <div>
   	Last Name
