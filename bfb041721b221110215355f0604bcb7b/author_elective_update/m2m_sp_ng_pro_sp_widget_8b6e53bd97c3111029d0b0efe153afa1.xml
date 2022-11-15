@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_ng_pro_sp_widget">
+    <m2m_sp_ng_pro_sp_widget action="DELETE">
+        <sp_angular_provider display_value="spEllipsisTooltip">1d2b40e07323201081d3738234f6a714</sp_angular_provider>
+        <sp_widget display_value="Copy of SC Catalog Item">ba6e53bd97c3111029d0b0efe153af98</sp_widget>
+        <sys_class_name>m2m_sp_ng_pro_sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-09 21:43:43</sys_created_on>
+        <sys_id>8b6e53bd97c3111029d0b0efe153afa1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>spEllipsisTooltip.Copy of SC Catalog Item</sys_name>
+        <sys_package display_value="Freelance Platform" source="x_895127_freelance">bfb041721b221110215355f0604bcb7b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope>
+        <sys_update_name>m2m_sp_ng_pro_sp_widget_8b6e53bd97c3111029d0b0efe153afa1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-09 21:43:43</sys_updated_on>
+    </m2m_sp_ng_pro_sp_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</application>
+        <file_path/>
+        <instance_id>d784f0f1db728c5052dd2f17d4961908</instance_id>
+        <instance_name>dev99569</instance_name>
+        <name>m2m_sp_ng_pro_sp_widget_8b6e53bd97c3111029d0b0efe153afa1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_ng_pro_sp_widget"><m2m_sp_ng_pro_sp_widget action="INSERT_OR_UPDATE"><sp_angular_provider display_value="spEllipsisTooltip">1d2b40e07323201081d3738234f6a714</sp_angular_provider><sp_widget display_value="Copy of SC Catalog Item">ba6e53bd97c3111029d0b0efe153af98</sp_widget><sys_class_name>m2m_sp_ng_pro_sp_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-09 21:43:43</sys_created_on><sys_id>8b6e53bd97c3111029d0b0efe153afa1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>spEllipsisTooltip.Copy of SC Catalog Item</sys_name><sys_package display_value="Freelance Platform" source="x_895127_freelance">bfb041721b221110215355f0604bcb7b</sys_package><sys_policy/><sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope><sys_update_name>m2m_sp_ng_pro_sp_widget_8b6e53bd97c3111029d0b0efe153afa1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-09 21:43:43</sys_updated_on></m2m_sp_ng_pro_sp_widget></record_update>]]></payload>
+        <payload_hash>889268435</payload_hash>
+        <record_name>spEllipsisTooltip.Copy of SC Catalog Item</record_name>
+        <reverted_from/>
+        <source>25d8d5f69722111029d0b0efe153aff7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-09 21:43:43</sys_created_on>
+        <sys_id>4b6e53bd97c3111029d0b0efe153afa3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1845e5954e80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-09 21:43:43</sys_updated_on>
+        <type>Angular Providers</type>
+        <update_guid>836e53bd6fc31110d4cb532cfcaceca3</update_guid>
+        <update_guid_history>836e53bd6fc31110d4cb532cfcaceca3:889268435</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="spEllipsisTooltip.Copy of SC Catalog Item">6144f8569787111029d0b0efe153af8c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-10 22:37:19</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sp_ng_pro_sp_widget">m2m_sp_ng_pro_sp_widget</sys_db_object>
+        <sys_id>34c99d7480fa481c8fccf3328b73aa24</sys_id>
+        <sys_metadata>8b6e53bd97c3111029d0b0efe153afa1</sys_metadata>
+        <sys_name>spEllipsisTooltip.Copy of SC Catalog Item</sys_name>
+        <sys_package display_value="Freelance Platform" source="x_895127_freelance">bfb041721b221110215355f0604bcb7b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope>
+        <sys_scope_delete display_value="">9a0d25254005466f92e02c9b6b125009</sys_scope_delete>
+        <sys_update_name>m2m_sp_ng_pro_sp_widget_8b6e53bd97c3111029d0b0efe153afa1</sys_update_name>
+        <sys_update_version display_value="m2m_sp_ng_pro_sp_widget_8b6e53bd97c3111029d0b0efe153afa1">4b6e53bd97c3111029d0b0efe153afa3</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

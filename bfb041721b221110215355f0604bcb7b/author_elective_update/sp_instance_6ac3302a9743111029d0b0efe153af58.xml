@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">eec3302a9743111029d0b0efe153af55</sp_column>
+        <sp_widget display_value="breadcrumbs">0fb269305b3212000d7ec7ad31f91ae2</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-11 17:13:40</sys_created_on>
+        <sys_id>6ac3302a9743111029d0b0efe153af58</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Freelance Platform" source="x_895127_freelance">bfb041721b221110215355f0604bcb7b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope>
+        <sys_update_name>sp_instance_6ac3302a9743111029d0b0efe153af58</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-11 17:13:40</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=6ac3302a9743111029d0b0efe153af58"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</application>
+        <file_path/>
+        <instance_id>d784f0f1db728c5052dd2f17d4961908</instance_id>
+        <instance_name>dev99569</instance_name>
+        <name>sp_instance_6ac3302a9743111029d0b0efe153af58</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="1">eec3302a9743111029d0b0efe153af55</sp_column><sp_widget display_value="breadcrumbs">0fb269305b3212000d7ec7ad31f91ae2</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-11 17:13:40</sys_created_on><sys_id>6ac3302a9743111029d0b0efe153af58</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Freelance Platform" source="x_895127_freelance">bfb041721b221110215355f0604bcb7b</sys_package><sys_policy/><sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope><sys_update_name>sp_instance_6ac3302a9743111029d0b0efe153af58</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-11 17:13:40</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=6ac3302a9743111029d0b0efe153af58"/></record_update>]]></payload>
+        <payload_hash>-227138185</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>25d8d5f69722111029d0b0efe153aff7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-11 17:13:40</sys_created_on>
+        <sys_id>22c3302a9743111029d0b0efe153af5b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18467aed15a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-11 17:13:40</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>6ac3302ab7431110e832a50677be305a</update_guid>
+        <update_guid_history>6ac3302ab7431110e832a50677be305a:-227138185</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">716678aa9743111029d0b0efe153af8a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-11 17:25:06</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>04029fc1b43e4a2ba0798dd267819389</sys_id>
+        <sys_metadata>6ac3302a9743111029d0b0efe153af58</sys_metadata>
+        <sys_name/>
+        <sys_package display_value="Freelance Platform" source="x_895127_freelance">bfb041721b221110215355f0604bcb7b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope>
+        <sys_scope_delete display_value="">9a0d25254005466f92e02c9b6b125009</sys_scope_delete>
+        <sys_update_name>sp_instance_6ac3302a9743111029d0b0efe153af58</sys_update_name>
+        <sys_update_version display_value="sp_instance_6ac3302a9743111029d0b0efe153af58">22c3302a9743111029d0b0efe153af5b</sys_update_version>
+    </sys_metadata_delete>
+</record_update>
