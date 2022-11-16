@@ -45,7 +45,75 @@
     };
 };]]></client_script>
         <controller_as>c</controller_as>
-        <css/>
+        <css>.containerr {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  background-color: rgba(10, 20, 30, 0.618);
+  border-radius: 15px;
+  transform: scale(.7);
+  padding-bottom: 20px;
+}
+
+.contH1 {
+  background-color: rgb(174, 214, 241);
+  height: inherit;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-weight: 900;
+}
+
+.formCont {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+
+.mb-3 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.down {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.mb-3 h3 {
+  color: white;
+  width: 90%;
+  text-align: left;
+}
+
+.down h3 {
+  color: white;
+  width: auto;
+  text-align: left;
+}
+
+.input {
+  border-radius: 10px;
+  height: 40px;
+  width: 90%;
+  font-size: 20px;
+}
+
+.inputRound {
+  margin-left: 20px;
+  transform: scale(2);
+}
+
+.btn-block {
+  width: 90%;
+}</css>
         <data_table>sp_instance</data_table>
         <demo_data/>
         <description/>
@@ -62,6 +130,7 @@
         <public>true</public>
         <roles/>
         <script><![CDATA[(function() {
+	console.log("Hola");
 		if(input){
 			var cartId = gs.generateGUID();
 			var cart = new sn_sc.CartJS(cartId);
@@ -78,10 +147,25 @@
 					'freelance_category': 1
 				}
 			};
-			var cartDetails = cart.addToCart(item);
-			var requestDetails = cart.submitOrder(cartDetails);
+			//var cartDetails = cart.addToCart(item);
+			//var requestDetails = cart.submitOrder(cartDetails);
+			//console.log(requestDetails);
+			testUno();
 		}
-})();]]></script>
+	console.log("Hola");
+	
+	function testUno() {
+		var user = new GlideRecord('sys_user');
+		var userData = JSON.stringify(input);
+		user.setLimit(1);
+		user.query();
+		user.next();
+		gs.eventQueue("x_895127_freelance.Freelance-Submit", user, userData);
+	}
+})();
+
+
+]]></script>
         <servicenow>false</servicenow>
         <sys_class_name>sp_widget</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -92,36 +176,39 @@
         <sys_policy/>
         <sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope>
         <sys_update_name>sp_widget_306b44de97c3111029d0b0efe153af8c</sys_update_name>
-        <template><![CDATA[<div>
-<!-- your widget template -->
-  <h1>Sign Up</h1>
-  <div>
-  	Are you a client
-    <input type="checkbox" id="client" name="client" ng-model="c.client">
+        <template><![CDATA[<div class="containerr">
+  <!-- your widget template -->
+  <div class="contH1">
+    <h1>Sign Up</h1>
   </div>
-  <div>
-  	First Name
-    <input class:"cambio" type="text" id="firstName" name="firstName" ng-model="c.firstName">
-  </div>
-   <div>
-  	Last Name
-    <input type="text" id="lastName" name="lastName" ng-model="c.lastName">
-  </div>
-  <div>
-  	User ID
-    <input type="text" id="userID" name="userID" ng-model="c.userID">
-  </div>
-   <div>
-  	Email
-    <input type="text" id="email" name="email" ng-model="c.email">
-  </div>
-   <div>
-  	Password
-    <input type="password" id="password" name="password" ng-model="c.password">
-  </div>
-  <button name="test" type="submit" class="btn btn-lg btn-primary btn-block" ng-click="c.submit()">
-  	Test    
-  </button>
-</div>]]></template>
+  <form class="formCont">
+    <div class="mb-3">
+      <h3>First Name</h3>
+      <input class="input" type="text" id="firstName" name="firstName" ng-model="c.firstName" />
+    </div>
+    <div class="mb-3">
+      <h3>Last Name</h3>
+      <input class="input" type="text" id="lastName" name="lastName" ng-model="c.lastName" />
+    </div>
+    <div class="mb-3">
+      <h3>User ID</h3>
+      <input class="input" type="text" id="userID" name="userID" ng-model="c.userID" />
+    </div>
+    <div class="mb-3">
+      <h3>Email</h3>
+      <input class="input" type="text" id="email" name="email" ng-model="c.email" />
+    </div>
+    <div class="mb-3">
+      <h3>Password</h3>
+      <input class="input" type="password" id="password" name="password" ng-model="c.password" />
+    </div>
+    <div class="mb-3 down">
+      <h3>Are you a client</h3>
+      <input class="inputRound" type="checkbox" id="client" name="client" ng-model="c.client" />
+    </div>
+    <button name="test" type="submit" class="btn btn-lg btn-primary btn-block" ng-click="c.submit()">Register</button>
+  </form>
+</div>
+]]></template>
     </sp_widget>
 </record_update>
