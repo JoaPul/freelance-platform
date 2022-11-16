@@ -123,7 +123,7 @@
 	}
 	
 	c.registerNewUser = function() {
-		$window.location.href = "/fr?id=sc_cat_item&sys_id=ed179ad5473651105da1da97436d43e4";
+		$window.location.href = "/fr?id=freelancer_sign_up";
 	}
 	
 	c.renderMaskIcon = function() {
