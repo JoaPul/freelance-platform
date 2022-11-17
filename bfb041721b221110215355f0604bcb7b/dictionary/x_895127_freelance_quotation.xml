@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="aeead7809713111029d0b0efe153afee" label="Freelance Quotation" max_length="40" name="x_895127_freelance_quotation" type="collection">
+        <element label="Approved" max_length="40" name="approved" type="boolean"/>
+        <element label="Description" max_length="800" name="description" type="string"/>
+        <element label="Freelancer" max_length="32" name="freelancer" reference="x_895127_freelance_freelance" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Short_Description" max_length="100" name="short_description" type="string"/>
+        <element label="Total" max_length="40" name="total" type="integer"/>
+        <index name="index">
+            <element name="freelancer"/>
+        </index>
+    </element>
+</database>
