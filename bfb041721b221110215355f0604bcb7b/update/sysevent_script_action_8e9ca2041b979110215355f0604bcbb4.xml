@@ -15,7 +15,12 @@
 	userData.setValue('user_name',user.userID);
 	userData.setValue('email',user.email);
 	userData.setValue('password',user.password);
-	userData.insert();
+	var newUser = userData.insert();
+	var freeData = new GlideRecord('x_895127_freelance_freelance');
+	freeData.initialize();
+	freeData.setValue('user', newUser);
+	freeData.setValue('freelancer',user.client);
+	freeData.insert();
 ]]></script>
         <synchronous>false</synchronous>
         <sys_class_name>sysevent_script_action</sys_class_name>
