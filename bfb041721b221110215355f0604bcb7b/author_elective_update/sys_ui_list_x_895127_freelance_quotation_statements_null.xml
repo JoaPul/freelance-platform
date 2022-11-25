@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list action="DELETE" parent="" relationship="" sys_domain="global" table="x_895127_freelance_quotation_statements" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>quotation</element>
+            <list_id display_value="x_895127_freelance_quotation_statements" element="NULL" name="x_895127_freelance_quotation_statements" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">fca8634c97d3111029d0b0efe153af6b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-16 22:14:41</sys_created_on>
+            <sys_id>b8a8634c97d3111029d0b0efe153af6c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-16 22:14:41</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_895127_freelance_quotation_statements</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-16 22:14:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fca8634c97d3111029d0b0efe153af6b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_895127_freelance_quotation_statements</sys_name>
+            <sys_package display_value="Freelance Platform" source="x_895127_freelance">bfb041721b221110215355f0604bcb7b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope>
+            <sys_update_name>sys_ui_list_x_895127_freelance_quotation_statements_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-16 22:14:41</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</application>
+        <file_path/>
+        <instance_id>d784f0f1db728c5052dd2f17d4961908</instance_id>
+        <instance_name>dev99569</instance_name>
+        <name>sys_ui_list_x_895127_freelance_quotation_statements_null</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="x_895127_freelance_quotation_statements" version="2" view=""><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>quotation</element><list_id display_value="x_895127_freelance_quotation_statements" element="NULL" name="x_895127_freelance_quotation_statements" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">fca8634c97d3111029d0b0efe153af6b</list_id><max_value>false</max_value><min_value>false</min_value><position>0</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-16 22:14:41</sys_created_on><sys_id>b8a8634c97d3111029d0b0efe153af6c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-16 22:14:41</sys_updated_on></sys_ui_list_element><sys_ui_list action="INSERT_OR_UPDATE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>x_895127_freelance_quotation_statements</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-16 22:14:41</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>fca8634c97d3111029d0b0efe153af6b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_895127_freelance_quotation_statements</sys_name><sys_package display_value="Freelance Platform" source="x_895127_freelance">bfb041721b221110215355f0604bcb7b</sys_package><sys_policy/><sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope><sys_update_name>sys_ui_list_x_895127_freelance_quotation_statements_null</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-16 22:14:41</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+        <payload_hash>582087823</payload_hash>
+        <record_name>Freelance Quotation Statements</record_name>
+        <reverted_from/>
+        <source>25d8d5f69722111029d0b0efe153aff7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 22:14:41</sys_created_on>
+        <sys_id>34a8634c97d3111029d0b0efe153af6e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184828232680000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 22:14:41</sys_updated_on>
+        <type>List Layout</type>
+        <update_guid>f0a8634c43d31110ecf71d0ec3988a6e</update_guid>
+        <update_guid_history>f0a8634c43d31110ecf71d0ec3988a6e:582087823</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 22:24:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_list">sys_ui_list</sys_db_object>
+        <sys_id>3124a51e097949578cf818afa3587d51</sys_id>
+        <sys_metadata>fca8634c97d3111029d0b0efe153af6b</sys_metadata>
+        <sys_name>x_895127_freelance_quotation_statements</sys_name>
+        <sys_package display_value="Freelance Platform" source="x_895127_freelance">bfb041721b221110215355f0604bcb7b</sys_package>
+        <sys_parent display_value="">3d53e34097d3111029d0b0efe153affa</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope>
+        <sys_scope_delete display_value="">9a0d25254005466f92e02c9b6b125009</sys_scope_delete>
+        <sys_update_name>sys_ui_list_x_895127_freelance_quotation_statements_null</sys_update_name>
+        <sys_update_version display_value="sys_ui_list_x_895127_freelance_quotation_statements_null">34a8634c97d3111029d0b0efe153af6e</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

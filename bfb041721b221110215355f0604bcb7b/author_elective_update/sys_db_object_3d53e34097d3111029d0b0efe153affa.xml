@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="DELETE">
+        <access>public</access>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>true</create_access_controls>
+        <delete_access>false</delete_access>
+        <is_extendable>false</is_extendable>
+        <label>Freelance Quotation Statements</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_895127_freelance_quotation_statements</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 21:53:18</sys_created_on>
+        <sys_id>3d53e34097d3111029d0b0efe153affa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Freelance Quotation Statements</sys_name>
+        <sys_package display_value="Freelance Platform" source="x_895127_freelance">bfb041721b221110215355f0604bcb7b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope>
+        <sys_update_name>sys_db_object_3d53e34097d3111029d0b0efe153affa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 21:53:18</sys_updated_on>
+        <update_access>false</update_access>
+        <user_role display_value="x_895127_freelance.freelance_quotation_statements_user" name="x_895127_freelance.freelance_quotation_statements_user">a7b3eb8497d3111029d0b0efe153af1b</user_role>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</application>
+        <file_path/>
+        <instance_id>d784f0f1db728c5052dd2f17d4961908</instance_id>
+        <instance_name>dev99569</instance_name>
+        <name>sys_db_object_3d53e34097d3111029d0b0efe153affa</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>true</create_access_controls><delete_access>false</delete_access><is_extendable>false</is_extendable><label>Freelance Quotation Statements</label><live_feed_enabled>false</live_feed_enabled><name>x_895127_freelance_quotation_statements</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class/><sys_class_name>sys_db_object</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-16 21:53:18</sys_created_on><sys_id>3d53e34097d3111029d0b0efe153affa</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Freelance Quotation Statements</sys_name><sys_package display_value="Freelance Platform" source="x_895127_freelance">bfb041721b221110215355f0604bcb7b</sys_package><sys_policy/><sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope><sys_update_name>sys_db_object_3d53e34097d3111029d0b0efe153affa</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-16 21:53:18</sys_updated_on><update_access>false</update_access><user_role display_value="x_895127_freelance.freelance_quotation_statements_user" name="x_895127_freelance.freelance_quotation_statements_user">a7b3eb8497d3111029d0b0efe153af1b</user_role><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+        <payload_hash>2055447913</payload_hash>
+        <record_name>Freelance Quotation Statements</record_name>
+        <reverted_from/>
+        <source>25d8d5f69722111029d0b0efe153aff7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 21:53:19</sys_created_on>
+        <sys_id>b7b3230897d3111029d0b0efe153af3a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184826ea3750000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-16 21:53:19</sys_updated_on>
+        <type>Table</type>
+        <update_guid>ffb3230898d31110d18dedc8b654a739</update_guid>
+        <update_guid_history>ffb3230898d31110d18dedc8b654a739:2055447913</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 22:24:32</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_object">sys_db_object</sys_db_object>
+        <sys_id>0674b2c10f3b4825b8270f3cd815f391</sys_id>
+        <sys_metadata>3d53e34097d3111029d0b0efe153affa</sys_metadata>
+        <sys_name>Freelance Quotation Statements</sys_name>
+        <sys_package display_value="Freelance Platform" source="x_895127_freelance">bfb041721b221110215355f0604bcb7b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope>
+        <sys_scope_delete display_value="">9a0d25254005466f92e02c9b6b125009</sys_scope_delete>
+        <sys_update_name>sys_db_object_3d53e34097d3111029d0b0efe153affa</sys_update_name>
+        <sys_update_version display_value="sys_db_object_3d53e34097d3111029d0b0efe153affa">b7b3230897d3111029d0b0efe153af3a</sys_update_version>
+    </sys_metadata_delete>
+</record_update>
