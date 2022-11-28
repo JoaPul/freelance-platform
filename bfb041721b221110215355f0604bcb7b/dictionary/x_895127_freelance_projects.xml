@@ -2,7 +2,9 @@
     <element db_object_id="5b54c864471311105da1da97436d432e" label="Projects" max_length="40" name="x_895127_freelance_projects" type="collection">
         <element label="Client" max_length="32" name="client" reference="sys_user" type="reference"/>
         <element label="Description" max_length="8000" name="description" type="html"/>
+        <element label="Examples" max_length="40" name="examples" type="file_attachment"/>
         <element label="Freelance" max_length="32" name="freelance" reference="sys_user" type="reference"/>
+        <element label="how many days" max_length="40" name="how_many_days" type="glide_time"/>
         <element choice="1" label="State" max_length="40" name="state" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Acepted" value="Acepted"/>
