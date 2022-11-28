@@ -39,8 +39,8 @@
 					dataJSON.userID = c.userID;
 					dataJSON.password = c.password;
 					c.server.get(dataJSON);
-        }
-	
+					$window.location.href = "/fr?id=landing_freelance";	
+        }	
 
     };
 };]]></client_script>
@@ -132,24 +132,24 @@
         <script><![CDATA[(function() {
 	console.log("Hola");
 		if(input){
-			var cartId = gs.generateGUID();
+			/*var cartId = gs.generateGUID();
 			var cart = new sn_sc.CartJS(cartId);
 			var item = {
-				'sysparm_id': 'ed179ad5473651105da1da97436d43e4',
-				'sysparm_quantity': '1',
-				'variables':{
-					'first_name': input.firstName,
-					'last_name': input.lastName,
-					'user_id': input.userID,
-					'email': input.email,
-					'password': input.password,
-					'are_you_a_client': input.client,
-					'freelance_category': 1
-				}
+			  'sysparm_id': 'ed179ad5473651105da1da97436d43e4',
+			  'sysparm_quantity': '1',
+			  'variables': {
+			    'first_name': input.firstName,
+			    'last_name': input.lastName,
+			    'user_id': input.userID,
+			    'email': input.email,
+			    'password': input.password,
+			    'are_you_a_client': input.client,
+			    'freelance_category': 1
+			  }
 			};
-			//var cartDetails = cart.addToCart(item);
-			//var requestDetails = cart.submitOrder(cartDetails);
-			//console.log(requestDetails);
+			var cartDetails = cart.addToCart(item);
+			var requestDetails = cart.submitOrder(cartDetails);
+			console.log(requestDetails);*/
 			testUno();
 		}
 	console.log("Hola");
@@ -203,7 +203,7 @@
       <input class="input" type="password" id="password" name="password" ng-model="c.password" />
     </div>
     <div class="mb-3 down">
-      <h3>Are you a client</h3>
+      <h3>Are you looking for a job?</h3>
       <input class="inputRound" type="checkbox" id="client" name="client" ng-model="c.client" />
     </div>
     <button name="test" type="submit" class="btn btn-lg btn-primary btn-block" ng-click="c.submit()">Register</button>
