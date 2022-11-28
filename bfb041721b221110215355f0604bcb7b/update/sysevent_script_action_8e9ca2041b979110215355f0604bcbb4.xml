@@ -6,21 +6,23 @@
         <event_name>x_895127_freelance.Freelance-Submit</event_name>
         <name>Freelance Register</name>
         <order>100</order>
-        <script><![CDATA[	gs.info("Hola");
-	var userData = new GlideRecord('sys_user');
-	var user = JSON.parse(event.parm1);
-	userData.initialize();
-	userData.setValue('first_name',user.firstName);
-	userData.setValue('last_name',user.lastName);
-	userData.setValue('user_name',user.userID);
-	userData.setValue('email',user.email);
-	userData.setValue('password',user.password);
-	var newUser = userData.insert();
-	var freeData = new GlideRecord('x_895127_freelance_freelance');
-	freeData.initialize();
-	freeData.setValue('user', newUser);
-	freeData.setValue('freelancer',user.client);
-	freeData.insert();
+        <script><![CDATA[ gs.info("Hola");
+    var userData = new GlideRecord('sys_user');
+    var user = JSON.parse(event.parm1);
+    userData.initialize();
+    userData.setValue('first_name',user.firstName);
+    userData.setValue('last_name',user.lastName);
+    userData.setValue('user_name',user.userID);
+    userData.setValue('email',user.email);
+    userData.setValue('password',user.password);
+    var newUser = userData.insert();
+    var freeData = new GlideRecord('x_895127_freelance_freelance');
+    freeData.initialize();
+    freeData.setValue('user', newUser);
+    freeData.setValue('freelancer',user.client);
+    freeData.insert();
+	var freeData = new GlideRecord('sys_user_group');
+	var freeData = new GlideRecord('sys_user_grmember');
 ]]></script>
         <synchronous>false</synchronous>
         <sys_class_name>sysevent_script_action</sys_class_name>
