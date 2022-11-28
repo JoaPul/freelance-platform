@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="b574417e1b621110215355f0604bcb94" label="Freelance" max_length="40" name="x_895127_freelance_freelance" type="collection">
-        <element attributes="edge_encryption_enabled=true" label="Address" max_length="400" name="address" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Cellphone" max_length="40" name="cellphone" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Name" max_length="80" name="name" type="string"/>
+        <element label="Freelancer" max_length="40" name="freelancer" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="user"/>
+        </index>
     </element>
 </database>
