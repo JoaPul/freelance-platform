@@ -13,7 +13,7 @@
         <label>Projects</label>
         <live_feed_enabled>false</live_feed_enabled>
         <name>x_895127_freelance_projects</name>
-        <number_ref/>
+        <number_ref display_value="FRP">f8bb92d8476711105da1da97436d43e2</number_ref>
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>
