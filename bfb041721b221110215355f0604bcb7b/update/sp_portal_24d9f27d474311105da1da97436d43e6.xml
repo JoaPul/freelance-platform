@@ -25,7 +25,7 @@ $grid-gutter-width: 15px !default;</css_variables>
         <enable_ais>true</enable_ais>
         <enable_favorites>false</enable_favorites>
         <hide_portal_name>false</hide_portal_name>
-        <homepage display_value="index">46cc384147532100ba13a5554ee49009</homepage>
+        <homepage display_value="fr_index">3d173dd447e311105da1da97436d430f</homepage>
         <icon>119fd2795bd56300a9ad49ed5a62bc40</icon>
         <kb_knowledge_base display_value="IT">a7e8a78bff0221009b20ffffffffff17</kb_knowledge_base>
         <kb_knowledge_page display_value="kb_view2">26c2e030d7201200a9addd173e24d437</kb_knowledge_page>
@@ -72,6 +72,7 @@ $grid-gutter-width: 15px !default;</css_variables>
         <chunk_size_bytes>700000</chunk_size_bytes>
         <compressed>true</compressed>
         <content_type>image/png</content_type>
+        <encryption_context/>
         <file_name>logo</file_name>
         <hash>7bbe114a74d744ed9089b118cf899ee6cc466efadd218e005eba32b2c0dab33a</hash>
         <image_height>1824</image_height>
