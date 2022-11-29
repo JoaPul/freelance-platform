@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="5b54c864471311105da1da97436d432e" label="Projects" max_length="40" name="x_895127_freelance_projects" type="collection">
+        <element label="Categorys" max_length="4000" name="categorys" reference="sys_user_group" type="glide_list"/>
         <element label="Client" max_length="32" name="client" reference="sys_user" type="reference"/>
         <element label="Description" max_length="8000" name="description" type="html"/>
         <element label="Examples" max_length="40" name="examples" type="file_attachment"/>
