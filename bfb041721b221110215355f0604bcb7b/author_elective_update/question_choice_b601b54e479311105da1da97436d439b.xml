@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>130</order>
+        <published_ref/>
+        <question display_value="Service Options">4dffadca479311105da1da97436d43aa</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-22 18:40:34</sys_created_on>
+        <sys_id>b601b54e479311105da1da97436d439b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Bug Fixes</sys_name>
+        <sys_package display_value="Freelance Platform" source="x_895127_freelance">bfb041721b221110215355f0604bcb7b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope>
+        <sys_update_name>question_choice_b601b54e479311105da1da97436d439b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-22 18:40:34</sys_updated_on>
+        <text>Bug Fixes</text>
+        <value>4</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=b601b54e479311105da1da97436d439b"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</application>
+        <file_path/>
+        <instance_id>2e74f26adbd5c9107527d7c8f4961978</instance_id>
+        <instance_name>dev123103</instance_name>
+        <name>question_choice_b601b54e479311105da1da97436d439b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>130</order><published_ref/><question display_value="Service Options">4dffadca479311105da1da97436d43aa</question><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-22 18:40:34</sys_created_on><sys_id>b601b54e479311105da1da97436d439b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Bug Fixes</sys_name><sys_package display_value="Freelance Platform" source="x_895127_freelance">bfb041721b221110215355f0604bcb7b</sys_package><sys_policy/><sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope><sys_update_name>question_choice_b601b54e479311105da1da97436d439b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-22 18:40:34</sys_updated_on><text>Bug Fixes</text><value>4</value></question_choice><fx_price action="delete_multiple" query="id=b601b54e479311105da1da97436d439b"/></record_update>]]></payload>
+        <payload_hash>1636057064</payload_hash>
+        <record_name>Bug Fixes</record_name>
+        <reverted_from/>
+        <source>b5e2594e475311105da1da97436d436f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-22 18:40:34</sys_created_on>
+        <sys_id>ba21fd0e479311105da1da97436d43b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184a0a4526e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-22 18:40:34</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>f221fd0e229311100a836d758306c0b8</update_guid>
+        <update_guid_history>f221fd0e229311100a836d758306c0b8:1636057064</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Bug Fixes">6144ee4a479711105da1da97436d43f2</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-22 22:23:51</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>a1a1b0d52ca44326a61b772e986cf101</sys_id>
+        <sys_metadata>b601b54e479311105da1da97436d439b</sys_metadata>
+        <sys_name>Bug Fixes</sys_name>
+        <sys_package display_value="Freelance Platform" source="x_895127_freelance">bfb041721b221110215355f0604bcb7b</sys_package>
+        <sys_parent display_value="Service Options">4dffadca479311105da1da97436d43aa</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope>
+        <sys_scope_delete display_value="">9a0d25254005466f92e02c9b6b125009</sys_scope_delete>
+        <sys_update_name>question_choice_b601b54e479311105da1da97436d439b</sys_update_name>
+        <sys_update_version display_value="question_choice_b601b54e479311105da1da97436d439b">ba21fd0e479311105da1da97436d43b8</sys_update_version>
+    </sys_metadata_delete>
+</record_update>
