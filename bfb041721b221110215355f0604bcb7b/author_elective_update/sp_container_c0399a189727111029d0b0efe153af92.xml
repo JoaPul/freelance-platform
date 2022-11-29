@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>Freelance Quotation Display - Container 2</name>
+        <order>2</order>
+        <sp_page display_value="freelance_quotation_display">202952d49727111029d0b0efe153af8b</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-29 21:21:44</sys_created_on>
+        <sys_id>c0399a189727111029d0b0efe153af92</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Freelance Quotation Display - Container 2</sys_name>
+        <sys_package display_value="Freelance Platform" source="x_895127_freelance">bfb041721b221110215355f0604bcb7b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope>
+        <sys_update_name>sp_container_c0399a189727111029d0b0efe153af92</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-29 21:22:23</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</application>
+        <file_path/>
+        <instance_id>d784f0f1db728c5052dd2f17d4961908</instance_id>
+        <instance_name>dev99569</instance_name>
+        <name>sp_container_c0399a189727111029d0b0efe153af92</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>Freelance Quotation Display - Container 2</name><order>2</order><sp_page display_value="freelance_quotation_display">202952d49727111029d0b0efe153af8b</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-29 21:21:44</sys_created_on><sys_id>c0399a189727111029d0b0efe153af92</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Freelance Quotation Display - Container 2</sys_name><sys_package display_value="Freelance Platform" source="x_895127_freelance">bfb041721b221110215355f0604bcb7b</sys_package><sys_policy/><sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope><sys_update_name>sp_container_c0399a189727111029d0b0efe153af92</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-29 21:22:23</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>-918057081</payload_hash>
+        <record_name>Freelance Quotation Display - Container 2</record_name>
+        <reverted_from/>
+        <source>949d6d8b97d3111029d0b0efe153af53</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-29 21:22:23</sys_created_on>
+        <sys_id>9159de189727111029d0b0efe153afa4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184c544fc1c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-29 21:22:23</sys_updated_on>
+        <type>Container</type>
+        <update_guid>9959de18dd271110de9fb5e799fc72a3</update_guid>
+        <update_guid_history>9959de18dd271110de9fb5e799fc72a3:-918057081,80399a189d2711104855700921bf9994:-582964344</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Freelance Quotation Display - Container 2">219ad2989727111029d0b0efe153af12</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-29 21:27:51</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>1628febd33e54618815454f42f3d41a4</sys_id>
+        <sys_metadata>c0399a189727111029d0b0efe153af92</sys_metadata>
+        <sys_name>Freelance Quotation Display - Container 2</sys_name>
+        <sys_package display_value="Freelance Platform" source="x_895127_freelance">bfb041721b221110215355f0604bcb7b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope>
+        <sys_scope_delete display_value="">9a0d25254005466f92e02c9b6b125009</sys_scope_delete>
+        <sys_update_name>sp_container_c0399a189727111029d0b0efe153af92</sys_update_name>
+        <sys_update_version display_value="sp_container_c0399a189727111029d0b0efe153af92">9159de189727111029d0b0efe153afa4</sys_update_version>
+    </sys_metadata_delete>
+</record_update>
