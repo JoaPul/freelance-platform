@@ -7,7 +7,6 @@
     c.client = false;
 
 
-
     //Check if Fields aren't empty
     function checkFields() {
         if (c.firstName == undefined || c.firstName == "") {
@@ -19,9 +18,9 @@
 		if(c.email == undefined || c.email == ""){
 			return false;
 		}
-		if(c.password == undefined || c.password == "" ){
-			return false;
-		}
+		//if(c.password == undefined || c.password == "" ){
+			//return false;
+		//}
 		if(c.userID == undefined || c.userID == "" ){
 			return false;
 		}
@@ -29,19 +28,25 @@
     }
 
     c.submit = function() {
+			// console.log("en function");
+			console.log(c.client, c.ServiceNow,c.CiberSecurity,c.AppDev,c.WebDev,c.Other);
         if (checkFields()) {
-			//create new sc_cat_item record here 
+					//create new sc_cat_item record here 
+					//dataJSON.password = c.password;
 					var dataJSON = {};
 					dataJSON.client = c.client;
 					dataJSON.firstName = c.firstName;
 					dataJSON.lastName = c.lastName;
 					dataJSON.email = c.email;
 					dataJSON.userID = c.userID;
-					dataJSON.password = c.password;
+					dataJSON.ServiceNow = c.ServiceNow;
+					dataJSON.CiberSecurity = c.CiberSecurity;
+					dataJSON.AppDev = c.AppDev;
+					dataJSON.WebDev = c.WebDev;
+					dataJSON.Other = c.Other;
 					c.server.get(dataJSON);
-					$window.location.href = "/fr?id=landing_freelance";	
-        }	
-
+				}
+			
     };
 };]]></client_script>
         <controller_as>c</controller_as>
@@ -57,7 +62,7 @@
 }
 
 .contH1 {
-  background-color: rgb(174, 214, 241);
+  background-color: #BDAEF2;
   height: inherit;
   width: 100%;
   text-align: center;
@@ -112,7 +117,41 @@
 }
 
 .btn-block {
-  width: 90%;
+  width: 100%;
+}
+
+.Link {
+	width: 90%;
+}
+
+.List{
+	display: none;
+}
+
+.inputRound:checked+.List{
+	display: block;
+}
+
+.lista {
+	color: white;
+}
+
+li {
+	display: inline-flex;
+  align-content:center;
+  justify-content:center;
+  align-items:center;
+}
+
+.Col {
+ background-color: #A480F2;
+}
+
+.Men24 {
+  padding-left:10px;
+  padding-right:10px;
+  color:white;
+  background-color: #4A23D9;
 }</css>
         <data_table>sp_instance</data_table>
         <demo_data/>
@@ -132,24 +171,29 @@
         <script><![CDATA[(function() {
 	console.log("Hola");
 		if(input){
-			/*var cartId = gs.generateGUID();
+			var cartId = gs.generateGUID();
 			var cart = new sn_sc.CartJS(cartId);
+			//		'password': input.password,
 			var item = {
-			  'sysparm_id': 'ed179ad5473651105da1da97436d43e4',
-			  'sysparm_quantity': '1',
-			  'variables': {
-			    'first_name': input.firstName,
-			    'last_name': input.lastName,
-			    'user_id': input.userID,
-			    'email': input.email,
-			    'password': input.password,
-			    'are_you_a_client': input.client,
-			    'freelance_category': 1
-			  }
+				'sysparm_id': 'ed179ad5473651105da1da97436d43e4',
+				'sysparm_quantity': '1',
+				'variables':{
+					'first_name': input.firstName,
+					'last_name': input.lastName,
+					'user_id': input.userID,
+					'email': input.email,
+					'are_you_a_freelancer': input.client,
+					'ServiceNow': input.ServiceNow,
+					'CiberSecurity': input.CiberSecurity,
+					'AppDev': input.AppDev,
+					'WebDev': input.WebDev,
+					'Other': input.Other,
+					'freelance_category': 1
+				}
 			};
-			var cartDetails = cart.addToCart(item);
-			var requestDetails = cart.submitOrder(cartDetails);
-			console.log(requestDetails);*/
+			//var cartDetails = cart.addToCart(item);
+			//var requestDetails = cart.submitOrder(cartDetails);
+			//console.log(requestDetails);
 			testUno();
 		}
 	console.log("Hola");
@@ -198,15 +242,47 @@
       <h3>Email</h3>
       <input class="input" type="text" id="email" name="email" ng-model="c.email" />
     </div>
-    <div class="mb-3">
+   <!---- <div class="mb-3">
       <h3>Password</h3>
       <input class="input" type="password" id="password" name="password" ng-model="c.password" />
-    </div>
+    </div> --->
     <div class="mb-3 down">
-      <h3>Are you looking for a job?</h3>
+      <h3>Are you a Freelancer</h3>
       <input class="inputRound" type="checkbox" id="client" name="client" ng-model="c.client" />
+    	<div class="List">
+          <ul class="mb-3 lista">
+            <h2>Select your group:</h2>
+            <li>
+              <h3>ServiceNow Dev</h3>
+            	<input class="inputRound" type="checkbox" id="ServiceNow" name="ServiceNow" ng-model="c.ServiceNow" default=false/>
+            </li>
+            <li>
+              <h3>Cibersecurity</h3>
+            	<input class="inputRound" type="checkbox" id="CiberSecurity" name="CiberSecurity" ng-model="c.CiberSecurity" default=false/>
+            </li>
+            <li>
+              <h3>App development</h3>
+            	<input class="inputRound" type="checkbox" id="AppDev" name="AppDev" ng-model="c.AppDev" default=false/>
+            </li>
+            <li>
+              <h3>Web Dev</h3>
+            	<input class="inputRound" type="checkbox" id="WebDev" name="WebDev" ng-model="c.WebDev" default=false/>
+            </li>
+            <li>
+              <h3>Other</h3>
+            	<input class="inputRound" type="checkbox" id="Other" name="Other" ng-model="c.Other" default=false/>
+            </li>
+          </ul>
+      </div>
     </div>
-    <button name="test" type="submit" class="btn btn-lg btn-primary btn-block" ng-click="c.submit()">Register</button>
+    <div class="Men24">
+      <h2>
+        Your password will be generated in 24hrs
+      </h2>
+    </div>
+    <a class="Link" href='https://dev134587.service-now.com/fr?id=landing_freelance'>
+    	<button name="test" type="submit" class="btn btn-lg btn-primary btn-block Col" ng-click="c.submit()">Register</button>
+    </a>
   </form>
 </div>
 ]]></template>

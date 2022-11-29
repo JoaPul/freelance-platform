@@ -7,7 +7,7 @@
         <hint/>
         <name>Freelance Quotation</name>
         <order>100</order>
-        <roles>x_895127_freelance.freelance_quotation_user</roles>
+        <roles>x_895127_freelance.freelance_quotation_user,x_895127_freelance.client_role,x_895127_freelance.freelance_role</roles>
         <sys_class_name>sys_app_application</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-16 21:20:15</sys_created_on>
