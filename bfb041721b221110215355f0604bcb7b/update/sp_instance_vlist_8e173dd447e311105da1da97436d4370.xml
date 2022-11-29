@@ -13,7 +13,7 @@
         <glyph/>
         <id/>
         <maximum_entries>20</maximum_entries>
-        <order>3</order>
+        <order>4</order>
         <order_by>sys_updated_on</order_by>
         <order_direction>desc</order_direction>
         <roles/>
