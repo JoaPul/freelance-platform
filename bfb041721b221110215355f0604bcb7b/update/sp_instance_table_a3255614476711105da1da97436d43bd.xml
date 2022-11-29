@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table">
+    <sp_instance_table action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field>active</display_field>
+        <field_list>short_description,number,caller_id,state</field_list>
+        <filter/>
+        <glyph/>
+        <id/>
+        <maximum_entries>10</maximum_entries>
+        <order>1</order>
+        <order_by>active</order_by>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">e7255614476711105da1da97436d43ba</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Data Table from URL Definition">8ae61f55cb21020000f8d856634c9c93</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-29 21:04:14</sys_created_on>
+        <sys_id>a3255614476711105da1da97436d43bd</sys_id>
+        <sys_name>List</sys_name>
+        <sys_package display_value="Freelance Platform" source="x_895127_freelance">bfb041721b221110215355f0604bcb7b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope>
+        <sys_update_name>sp_instance_table_a3255614476711105da1da97436d43bd</sys_update_name>
+        <table>incident</table>
+        <title>List</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_table>
+    <sys_translated_text action="delete_multiple" query="documentkey=a3255614476711105da1da97436d43bd"/>
+</record_update>

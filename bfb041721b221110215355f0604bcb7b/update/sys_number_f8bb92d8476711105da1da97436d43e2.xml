@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_895127_freelance_projects">x_895127_freelance_projects</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>FRP</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-29 21:33:17</sys_created_on>
+        <sys_id>f8bb92d8476711105da1da97436d43e2</sys_id>
+        <sys_name>FRP</sys_name>
+        <sys_package display_value="Freelance Platform" source="x_895127_freelance">bfb041721b221110215355f0604bcb7b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope>
+        <sys_update_name>sys_number_f8bb92d8476711105da1da97436d43e2</sys_update_name>
+    </sys_number>
+</record_update>
