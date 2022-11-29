@@ -6,7 +6,7 @@
         <event_name>x_895127_freelance.Freelance-Submit</event_name>
         <name>Freelance Register</name>
         <order>100</order>
-        <script><![CDATA[ gs.info("Hola");
+        <script><![CDATA[ gs.info("Hola","Test");
     var userData = new GlideRecord('sys_user');
     var user = JSON.parse(event.parm1);
     userData.initialize();
@@ -14,15 +14,67 @@
     userData.setValue('last_name',user.lastName);
     userData.setValue('user_name',user.userID);
     userData.setValue('email',user.email);
-    userData.setValue('password',user.password);
+    userData.setValue('password',"Temporal");
     var newUser = userData.insert();
     var freeData = new GlideRecord('x_895127_freelance_freelance');
     freeData.initialize();
     freeData.setValue('user', newUser);
-    freeData.setValue('freelancer',user.client);
+    //  freeData.setValue('freelancer',user.client); quitar/ocultar columna de tabla freelance
     freeData.insert();
-	var freeData = new GlideRecord('sys_user_group');
-	var freeData = new GlideRecord('sys_user_grmember');
+	// var group = new GlideRecord('sys_user_grmember');
+	gs.info("ya paso Users");
+	gs.info(user.client);
+	if(user.client) {
+		if(user.ServiceNow) {
+			var group = new GlideRecord('sys_user_grmember');
+			group.initialize();
+			group.setValue('user', newUser);
+			group.setValue('group', "2a5e8c4c97231110c3f17b771153af56");
+			group.insert();
+		}
+		if(user.CiberSecurity) {
+			group = new GlideRecord('sys_user_grmember');
+			group.initialize();
+			group.setValue('user', newUser);
+			group.setValue('group', "721e0c4c97231110c3f17b771153af24");
+			group.insert();
+		}
+		if(user.AppDev) {
+			group = new GlideRecord('sys_user_grmember');
+			group.initialize();
+			group.setValue('user', newUser);
+			group.setValue('group', "f1ddc80c97231110c3f17b771153afd8");
+			group.insert();
+		}
+		if(user.WebDev) {
+			group = new GlideRecord('sys_user_grmember');
+			group.initialize();
+			group.setValue('user', newUser);
+			group.setValue('group', "571dc80c97231110c3f17b771153afd1");
+			group.insert();
+		}
+		if(user.Other) {
+			group = new GlideRecord('sys_user_grmember');
+			group.initialize();
+			group.setValue('user', newUser);
+			group.setValue('group', "cf8e808c97231110c3f17b771153afd7");
+			group.insert();
+		}
+		if(user.Other == undefined && user.WebDev == undefined && user.AppDev == undefined && user.CiberSecurity == undefined && user.ServiceNow == undefined) {
+			group = new GlideRecord('sys_user_grmember');
+			group.initialize();
+			group.setValue('user', newUser);
+			group.setValue('group', "31a0140097631110c3f17b771153af06");
+			group.insert();
+		}
+	} else {
+		group = new GlideRecord('sys_user_grmember');
+		group.initialize();
+		group.setValue('user', newUser);
+		group.setValue('group', "31a0140097631110c3f17b771153af06");
+		group.insert();
+	}
+	
 ]]></script>
         <synchronous>false</synchronous>
         <sys_class_name>sysevent_script_action</sys_class_name>
