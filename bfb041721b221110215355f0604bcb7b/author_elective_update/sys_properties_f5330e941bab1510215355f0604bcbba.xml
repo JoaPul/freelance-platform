@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="DELETE">
+        <choices/>
+        <description/>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_895127_freelance.glide.entry.page.script</name>
+        <read_roles/>
+        <suffix>glide.entry.page.script</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-29 19:45:45</sys_created_on>
+        <sys_id>f5330e941bab1510215355f0604bcbba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_895127_freelance.glide.entry.page.script</sys_name>
+        <sys_package display_value="Freelance Platform" source="x_895127_freelance">bfb041721b221110215355f0604bcb7b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope>
+        <sys_update_name>sys_properties_f5330e941bab1510215355f0604bcbba</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-29 19:45:45</sys_updated_on>
+        <type>string</type>
+        <value>new SPEntryPage().getLoginURL()</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="DELETE" query="documentkey=f5330e941bab1510215355f0604bcbba"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</application>
+        <file_path/>
+        <instance_id>c6554e9ddb4615948aea21c40596190d</instance_id>
+        <instance_name>dev134587</instance_name>
+        <name>sys_properties_f5330e941bab1510215355f0604bcbba</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description/><ignore_cache>true</ignore_cache><is_private>false</is_private><name>x_895127_freelance.glide.entry.page.script</name><read_roles/><suffix>glide.entry.page.script</suffix><sys_class_name>sys_properties</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-29 19:45:45</sys_created_on><sys_id>f5330e941bab1510215355f0604bcbba</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_895127_freelance.glide.entry.page.script</sys_name><sys_package display_value="Freelance Platform" source="x_895127_freelance">bfb041721b221110215355f0604bcb7b</sys_package><sys_policy/><sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope><sys_update_name>sys_properties_f5330e941bab1510215355f0604bcbba</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-29 19:45:45</sys_updated_on><type>string</type><value>new SPEntryPage().getLoginURL()</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=f5330e941bab1510215355f0604bcbba"/></record_update>]]></payload>
+        <payload_hash>1393115474</payload_hash>
+        <record_name>x_895127_freelance.glide.entry.page.script</record_name>
+        <reverted_from/>
+        <source>9f6ebc981ba71510215355f0604bcbcd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-29 19:45:46</sys_created_on>
+        <sys_id>79330e941bab1510215355f0604bcbbc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184c4ec86be0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-29 19:45:46</sys_updated_on>
+        <type>System Property</type>
+        <update_guid>b1330e948eab151054d2bb2ba82900bc</update_guid>
+        <update_guid_history>b1330e948eab151054d2bb2ba82900bc:1393115474</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-29 21:20:41</sys_created_on>
+        <sys_db_object display_value="" name="sys_properties">sys_properties</sys_db_object>
+        <sys_id>2c986a014c504097a14be48afce44141</sys_id>
+        <sys_metadata>f5330e941bab1510215355f0604bcbba</sys_metadata>
+        <sys_name>x_895127_freelance.glide.entry.page.script</sys_name>
+        <sys_package display_value="Freelance Platform" source="x_895127_freelance">bfb041721b221110215355f0604bcb7b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope>
+        <sys_scope_delete display_value="">9a0d25254005466f92e02c9b6b125009</sys_scope_delete>
+        <sys_update_name>sys_properties_f5330e941bab1510215355f0604bcbba</sys_update_name>
+        <sys_update_version display_value="sys_properties_f5330e941bab1510215355f0604bcbba">79330e941bab1510215355f0604bcbbc</sys_update_version>
+    </sys_metadata_delete>
+</record_update>
