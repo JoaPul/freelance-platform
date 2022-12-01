@@ -17,7 +17,7 @@
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
-        <roles>x_895127_freelance.freelance_quotation_user,x_895127_freelance.client_role,x_895127_freelance.freelance_role</roles>
+        <roles>x_895127_freelance.freelance_quotation_user,x_895127_freelance.client_role,x_895127_freelance.freelance_role,x_895127_freelance.admin,x_895127_freelance.mod_role</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-16 21:20:15</sys_created_on>

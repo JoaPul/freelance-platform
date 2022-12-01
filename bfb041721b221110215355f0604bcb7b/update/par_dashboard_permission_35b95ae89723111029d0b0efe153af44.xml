@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_permission">
+    <par_dashboard_permission action="INSERT_OR_UPDATE">
+        <can_read>true</can_read>
+        <can_share>false</can_share>
+        <can_write>false</can_write>
+        <dashboard display_value="Freelance Platform Quotations ">ecb9d6e8ca23111028f3dc8088056ecf</dashboard>
+        <group/>
+        <role display_value="x_895127_freelance.client_role" name="x_895127_freelance.client_role">459cc40497231110c3f17b771153afba</role>
+        <sys_class_name>par_dashboard_permission</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-30 16:02:32</sys_created_on>
+        <sys_id>35b95ae89723111029d0b0efe153af44</sys_id>
+        <sys_name>ecb9d6e8ca23111028f3dc8088056ecf</sys_name>
+        <sys_package display_value="Freelance Platform" source="x_895127_freelance">bfb041721b221110215355f0604bcb7b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope>
+        <sys_update_name>par_dashboard_permission_35b95ae89723111029d0b0efe153af44</sys_update_name>
+        <user/>
+    </par_dashboard_permission>
+</record_update>

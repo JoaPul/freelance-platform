@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_visibility">
+    <par_dashboard_visibility action="INSERT_OR_UPDATE">
+        <dashboard display_value="Freelance Platform Quotations ">ecb9d6e8ca23111028f3dc8088056ecf</dashboard>
+        <experience display_value="Freelance Platform Quotations ">e8b9d6e81f2311108f58206d7ba2fad0</experience>
+        <sys_class_name>par_dashboard_visibility</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-30 16:02:28</sys_created_on>
+        <sys_id>a0b9d6e827231110e3b04f4e66be3cd5</sys_id>
+        <sys_name/>
+        <sys_package display_value="Freelance Platform" source="x_895127_freelance">bfb041721b221110215355f0604bcb7b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope>
+        <sys_update_name>par_dashboard_visibility_a0b9d6e827231110e3b04f4e66be3cd5</sys_update_name>
+    </par_dashboard_visibility>
+</record_update>
