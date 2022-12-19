@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_data_policy2">
+    <sys_data_policy2 action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <apply_import_set>true</apply_import_set>
+        <apply_soap>true</apply_soap>
+        <conditions/>
+        <description/>
+        <enforce_ui>false</enforce_ui>
+        <inherit>false</inherit>
+        <model_id/>
+        <model_table>x_895127_freelance_quotation</model_table>
+        <reverse_if_false>true</reverse_if_false>
+        <short_description>Mandatory Fields</short_description>
+        <sys_class_name>sys_data_policy2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-24 21:59:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d7b17cf29757111029d0b0efe153afc4</sys_id>
+        <sys_name>Mandatory Fields</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Freelance Platform" source="x_895127_freelance">bfb041721b221110215355f0604bcb7b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope>
+        <sys_update_name>sys_data_policy2_d7b17cf29757111029d0b0efe153afc4</sys_update_name>
+    </sys_data_policy2>
+</record_update>

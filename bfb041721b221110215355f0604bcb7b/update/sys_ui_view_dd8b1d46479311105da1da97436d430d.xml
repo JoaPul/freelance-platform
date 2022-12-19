@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>catalog_programming_and_tech</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-22 17:05:59</sys_created_on>
+        <sys_id>dd8b1d46479311105da1da97436d430d</sys_id>
+        <sys_name>Programming and Tech View</sys_name>
+        <sys_package display_value="Freelance Platform" source="x_895127_freelance">bfb041721b221110215355f0604bcb7b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope>
+        <sys_update_name>sys_ui_view_dd8b1d46479311105da1da97436d430d</sys_update_name>
+        <title>Programming and Tech View</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

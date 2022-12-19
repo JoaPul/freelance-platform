@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Tabs Configuration</description>
+        <name>chrome_tab</name>
+        <page display_value="Freelance Platform Quotations ">e8b9d6e81f2311108f58206d7ba2fad0</page>
+        <required_translations>[ {
+  "message" : "New Freelance",
+  "comment" : ""
+}, {
+  "message" : "New Freelance Quotation",
+  "comment" : ""
+}, {
+  "message" : "New Incident",
+  "comment" : ""
+}, {
+  "message" : "New Interaction",
+  "comment" : ""
+}, {
+  "message" : "New Projects",
+  "comment" : ""
+} ]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-30 16:02:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>a4b9d6e87c231110e2c7493db2ca14d4</sys_id>
+        <sys_name>chrome_tab</sys_name>
+        <sys_package display_value="Freelance Platform" source="x_895127_freelance">bfb041721b221110215355f0604bcb7b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope>
+        <sys_update_name>sys_ux_page_property_a4b9d6e87c231110e2c7493db2ca14d4</sys_update_name>
+        <type>json</type>
+        <unique_name>x_895127_freelance.e8b9d6e81f2311108f58206d7ba2fad0.root.chrome_tab</unique_name>
+        <value>{"contextual":["record"],"newTabMenu":[{"label":{"translatable":true,"message":"New Interaction"},"routeInfo":{"route":"record","fields":{"table":"interaction","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"interaction","canCreate":true}}},{"label":{"translatable":true,"message":"New Incident"},"routeInfo":{"route":"record","fields":{"table":"incident","sysId":"-1"},"multiInstField":"sysId"}},{"label":{"translatable":true,"message":"New Freelance Quotation"},"routeInfo":{"route":"record","fields":{"table":"x_895127_freelance_quotation","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_895127_freelance_quotation","canCreate":true}}},{"label":{"translatable":true,"message":"New Freelance"},"routeInfo":{"route":"record","fields":{"table":"x_895127_freelance_freelance","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_895127_freelance_freelance","canCreate":true}}},{"label":{"translatable":true,"message":"New Projects"},"routeInfo":{"route":"record","fields":{"table":"x_895127_freelance_projects","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_895127_freelance_projects","canCreate":true}}}],"maxMainTabLimit":10,"maxTotalSubTabLimit":30}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=a4b9d6e87c231110e2c7493db2ca14d4"/>
+</record_update>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Freelance Quotation">572c9f0097d3111029d0b0efe153afa9</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Freelance Quotations</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_895127_freelance_quotation</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_895127_freelance.freelance_quotation_user,x_895127_freelance.client_role,x_895127_freelance.freelance_role,x_895127_freelance.admin,x_895127_freelance.mod_role</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 21:20:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9f2c9f0097d3111029d0b0efe153afac</sys_id>
+        <sys_name>Freelance Quotations</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Freelance Platform" source="x_895127_freelance">bfb041721b221110215355f0604bcb7b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope>
+        <sys_update_name>sys_app_module_9f2c9f0097d3111029d0b0efe153afac</sys_update_name>
+        <timeline_page/>
+        <title>Freelance Quotations</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

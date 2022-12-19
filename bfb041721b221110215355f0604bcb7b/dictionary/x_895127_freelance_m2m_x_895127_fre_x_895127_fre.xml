@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="10483cc597e3111029d0b0efe153afdd" label="x_895127_freelance_m2m_Projects_Freelance Quotations" max_length="40" name="x_895127_freelance_m2m_x_895127_fre_x_895127_fre" type="collection">
+        <element attributes="encode_utf8=false" label="Projects" max_length="32" name="x_895127_freelance_projects" reference="x_895127_freelance_projects" type="reference"/>
+        <element attributes="encode_utf8=false" label="Freelance Quotations" max_length="32" name="x_895127_freelance_quotation" reference="x_895127_freelance_quotation" type="reference"/>
+        <index name="index">
+            <element name="x_895127_freelance_projects"/>
+        </index>
+        <index name="index2">
+            <element name="x_895127_freelance_quotation"/>
+        </index>
+    </element>
+</database>

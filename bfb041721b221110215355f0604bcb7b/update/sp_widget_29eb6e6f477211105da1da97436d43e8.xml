@@ -122,6 +122,10 @@
 			c.masked = true;
 	}
 	
+	c.registerNewUser = function() {
+		$window.location.href = "/fr?id=freelancer_sign_up";
+	}
+	
 	c.renderMaskIcon = function() {
 		var passwordEle = document.getElementById("password");
 		var maskEle = document.getElementById("mask_icon");
@@ -562,10 +566,11 @@ button.cert, a.idp {
               <button name="login" type="submit" class="btn btn-lg btn-primary btn-block login-button-old">
                 ${Login}
               </button>
-              <button name="login" type="button" class="btn btn-lg btn-primary btn-block login-button-old Azul">
-                <a class="LinkName" href="https://dev123103.service-now.com/fr?id=sc_cat_item&sys_id=ed179ad5473651105da1da97436d43e4">
-                Register</a>
-              </button>
+              <a class="LinkName">
+              	<button name="login" type="button" ng-click="c.registerNewUser()" class="btn btn-lg btn-primary btn-block login-button-old Azul">
+                Register
+              	</button>
+               </a>
             </div>
           </div>
         </div>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>120</order>
+        <published_ref/>
+        <question display_value="Service Options">4dffadca479311105da1da97436d43aa</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-22 18:40:14</sys_created_on>
+        <sys_id>38f07d4a47d311105da1da97436d4389</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Theme/Plugin Installation</sys_name>
+        <sys_package display_value="Freelance Platform" source="x_895127_freelance">bfb041721b221110215355f0604bcb7b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope>
+        <sys_update_name>question_choice_38f07d4a47d311105da1da97436d4389</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-22 18:40:14</sys_updated_on>
+        <text>Theme/Plugin Installation</text>
+        <value>3</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=38f07d4a47d311105da1da97436d4389"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</application>
+        <file_path/>
+        <instance_id>2e74f26adbd5c9107527d7c8f4961978</instance_id>
+        <instance_name>dev123103</instance_name>
+        <name>question_choice_38f07d4a47d311105da1da97436d4389</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>120</order><published_ref/><question display_value="Service Options">4dffadca479311105da1da97436d43aa</question><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-22 18:40:14</sys_created_on><sys_id>38f07d4a47d311105da1da97436d4389</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Theme/Plugin Installation</sys_name><sys_package display_value="Freelance Platform" source="x_895127_freelance">bfb041721b221110215355f0604bcb7b</sys_package><sys_policy/><sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope><sys_update_name>question_choice_38f07d4a47d311105da1da97436d4389</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-22 18:40:14</sys_updated_on><text>Theme/Plugin Installation</text><value>3</value></question_choice><fx_price action="delete_multiple" query="id=38f07d4a47d311105da1da97436d4389"/></record_update>]]></payload>
+        <payload_hash>1211692680</payload_hash>
+        <record_name>Theme/Plugin Installation</record_name>
+        <reverted_from/>
+        <source>b5e2594e475311105da1da97436d436f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-22 18:40:14</sys_created_on>
+        <sys_id>c611f90a47d311105da1da97436d433d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184a0a406930000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-22 18:40:14</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>0211f90a2dd31110203415c8498d983d</update_guid>
+        <update_guid_history>0211f90a2dd31110203415c8498d983d:1211692680</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Theme/Plugin Installation">d544ee4a479711105da1da97436d433a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-22 22:23:50</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>60a85637d7354f98a5e287eed5b25609</sys_id>
+        <sys_metadata>38f07d4a47d311105da1da97436d4389</sys_metadata>
+        <sys_name>Theme/Plugin Installation</sys_name>
+        <sys_package display_value="Freelance Platform" source="x_895127_freelance">bfb041721b221110215355f0604bcb7b</sys_package>
+        <sys_parent display_value="Service Options">4dffadca479311105da1da97436d43aa</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope>
+        <sys_scope_delete display_value="">9a0d25254005466f92e02c9b6b125009</sys_scope_delete>
+        <sys_update_name>question_choice_38f07d4a47d311105da1da97436d4389</sys_update_name>
+        <sys_update_version display_value="question_choice_38f07d4a47d311105da1da97436d4389">c611f90a47d311105da1da97436d433d</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

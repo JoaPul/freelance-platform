@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_widget_dependency">
+    <m2m_sp_widget_dependency action="DELETE">
+        <sp_dependency display_value="sp_codemirror_includes">016f19255b301200e39fc7ad31f91abd</sp_dependency>
+        <sp_widget display_value="Copy of SC Catalog Item">ba6e53bd97c3111029d0b0efe153af98</sp_widget>
+        <sys_class_name>m2m_sp_widget_dependency</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-09 21:43:43</sys_created_on>
+        <sys_id>c76e53bd97c3111029d0b0efe153af9d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sp_codemirror_includes.Copy of SC Catalog Item</sys_name>
+        <sys_package display_value="Freelance Platform" source="x_895127_freelance">bfb041721b221110215355f0604bcb7b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope>
+        <sys_update_name>m2m_sp_widget_dependency_c76e53bd97c3111029d0b0efe153af9d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-09 21:43:43</sys_updated_on>
+    </m2m_sp_widget_dependency>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</application>
+        <file_path/>
+        <instance_id>d784f0f1db728c5052dd2f17d4961908</instance_id>
+        <instance_name>dev99569</instance_name>
+        <name>m2m_sp_widget_dependency_c76e53bd97c3111029d0b0efe153af9d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_widget_dependency"><m2m_sp_widget_dependency action="INSERT_OR_UPDATE"><sp_dependency display_value="sp_codemirror_includes">016f19255b301200e39fc7ad31f91abd</sp_dependency><sp_widget display_value="Copy of SC Catalog Item">ba6e53bd97c3111029d0b0efe153af98</sp_widget><sys_class_name>m2m_sp_widget_dependency</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-09 21:43:43</sys_created_on><sys_id>c76e53bd97c3111029d0b0efe153af9d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sp_codemirror_includes.Copy of SC Catalog Item</sys_name><sys_package display_value="Freelance Platform" source="x_895127_freelance">bfb041721b221110215355f0604bcb7b</sys_package><sys_policy/><sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope><sys_update_name>m2m_sp_widget_dependency_c76e53bd97c3111029d0b0efe153af9d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-09 21:43:43</sys_updated_on></m2m_sp_widget_dependency></record_update>]]></payload>
+        <payload_hash>-138451543</payload_hash>
+        <record_name>sp_codemirror_includes.Copy of SC Catalog Item</record_name>
+        <reverted_from/>
+        <source>25d8d5f69722111029d0b0efe153aff7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-09 21:43:43</sys_created_on>
+        <sys_id>c36e53bd97c3111029d0b0efe153af9f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1845e5954ae0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-09 21:43:43</sys_updated_on>
+        <type>Widget Dependency</type>
+        <update_guid>0f6e53bd58c31110909a3ebd71474d9e</update_guid>
+        <update_guid_history>0f6e53bd58c31110909a3ebd71474d9e:-138451543</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="sp_codemirror_includes.Copy of SC Catalog Item">f944f8569787111029d0b0efe153afb4</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-10 22:37:19</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sp_widget_dependency">m2m_sp_widget_dependency</sys_db_object>
+        <sys_id>6bf419d3a8ef4b20b1fef6508116cf21</sys_id>
+        <sys_metadata>c76e53bd97c3111029d0b0efe153af9d</sys_metadata>
+        <sys_name>sp_codemirror_includes.Copy of SC Catalog Item</sys_name>
+        <sys_package display_value="Freelance Platform" source="x_895127_freelance">bfb041721b221110215355f0604bcb7b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope>
+        <sys_scope_delete display_value="">9a0d25254005466f92e02c9b6b125009</sys_scope_delete>
+        <sys_update_name>m2m_sp_widget_dependency_c76e53bd97c3111029d0b0efe153af9d</sys_update_name>
+        <sys_update_version display_value="m2m_sp_widget_dependency_c76e53bd97c3111029d0b0efe153af9d">c36e53bd97c3111029d0b0efe153af9f</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

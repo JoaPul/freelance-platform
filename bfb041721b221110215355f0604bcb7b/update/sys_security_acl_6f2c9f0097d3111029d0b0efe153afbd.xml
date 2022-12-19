@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <condition/>
+        <description>Default access control on x_895127_freelance_quotation</description>
+        <name>x_895127_freelance_quotation</name>
+        <operation display_value="read">read</operation>
+        <script><![CDATA[answer = false;
+if (current.client.user == gs.getUserID()) {
+    answer = true;
+}else if (current.freelancer.user == gs.getUserID()){
+        answer = true;
+    }]]></script>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-16 21:20:16</sys_created_on>
+        <sys_id>6f2c9f0097d3111029d0b0efe153afbd</sys_id>
+        <sys_name>x_895127_freelance_quotation</sys_name>
+        <sys_package display_value="Freelance Platform" source="x_895127_freelance">bfb041721b221110215355f0604bcb7b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope>
+        <sys_update_name>sys_security_acl_6f2c9f0097d3111029d0b0efe153afbd</sys_update_name>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>

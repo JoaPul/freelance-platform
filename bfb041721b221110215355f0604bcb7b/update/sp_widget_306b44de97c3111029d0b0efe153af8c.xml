@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller = function() {
+    /* widget controller */
+    var c = this;
+    c.client = false;
+
+
+    //Check if Fields aren't empty
+    function checkFields() {
+        if (c.firstName == undefined || c.firstName == "") {
+            return false;
+        }
+		if(c.lastName == undefined || c.lastName == ""){
+			return false;
+		}
+		if(c.email == undefined || c.email == ""){
+			return false;
+		}
+		//if(c.password == undefined || c.password == "" ){
+			//return false;
+		//}
+		if(c.userID == undefined || c.userID == "" ){
+			return false;
+		}
+        return true;
+    }
+
+    c.submit = function() {
+			// console.log("en function");
+			console.log(c.client, c.ServiceNow,c.CiberSecurity,c.AppDev,c.WebDev,c.Other);
+        if (checkFields()) {
+					//create new sc_cat_item record here 
+					//dataJSON.password = c.password;
+					var dataJSON = {};
+					dataJSON.client = c.client;
+					dataJSON.firstName = c.firstName;
+					dataJSON.lastName = c.lastName;
+					dataJSON.email = c.email;
+					dataJSON.userID = c.userID;
+					dataJSON.ServiceNow = c.ServiceNow;
+					dataJSON.CiberSecurity = c.CiberSecurity;
+					dataJSON.AppDev = c.AppDev;
+					dataJSON.WebDev = c.WebDev;
+					dataJSON.Other = c.Other;
+					c.server.get(dataJSON);
+				}
+			
+    };
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.containerr {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  background-color: rgba(10, 20, 30, 0.618);
+  border-radius: 15px;
+  transform: scale(.7);
+  padding-bottom: 20px;
+}
+
+.contH1 {
+  background-color: #BDAEF2;
+  height: inherit;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-weight: 900;
+}
+
+.formCont {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+
+.mb-3 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.down {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.mb-3 h3 {
+  color: white;
+  width: 90%;
+  text-align: left;
+}
+
+.down h3 {
+  color: white;
+  width: auto;
+  text-align: left;
+}
+
+.input {
+  border-radius: 10px;
+  height: 40px;
+  width: 90%;
+  font-size: 20px;
+}
+
+.inputRound {
+  margin-left: 20px;
+  transform: scale(2);
+}
+
+.btn-block {
+  width: 100%;
+}
+
+.Link {
+	width: 90%;
+}
+
+.List{
+	display: none;
+}
+
+.inputRound:checked+.List{
+	display: block;
+}
+
+.lista {
+	color: white;
+}
+
+li {
+	display: inline-flex;
+  align-content:center;
+  justify-content:center;
+  align-items:center;
+}
+
+.Col {
+ background-color: #A480F2;
+}
+
+.Men24 {
+  padding-left:10px;
+  padding-right:10px;
+  color:white;
+  background-color: #4A23D9;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>Freelance Register</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+	console.log("Hola");
+		if(input){
+			var cartId = gs.generateGUID();
+			var cart = new sn_sc.CartJS(cartId);
+			//		'password': input.password,
+			var item = {
+				'sysparm_id': 'ed179ad5473651105da1da97436d43e4',
+				'sysparm_quantity': '1',
+				'variables':{
+					'first_name': input.firstName,
+					'last_name': input.lastName,
+					'user_id': input.userID,
+					'email': input.email,
+					'are_you_a_freelancer': input.client,
+					'ServiceNow': input.ServiceNow,
+					'CiberSecurity': input.CiberSecurity,
+					'AppDev': input.AppDev,
+					'WebDev': input.WebDev,
+					'Other': input.Other,
+					'freelance_category': 1
+				}
+			};
+			//var cartDetails = cart.addToCart(item);
+			//var requestDetails = cart.submitOrder(cartDetails);
+			//console.log(requestDetails);
+			testUno();
+		}
+	console.log("Hola");
+	
+	function testUno() {
+		var user = new GlideRecord('sys_user');
+		var userData = JSON.stringify(input);
+		user.setLimit(1);
+		user.query();
+		user.next();
+		gs.eventQueue("x_895127_freelance.Freelance-Submit", user, userData);
+	}
+})();
+
+
+]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-10 19:39:49</sys_created_on>
+        <sys_id>306b44de97c3111029d0b0efe153af8c</sys_id>
+        <sys_name>Freelance Register</sys_name>
+        <sys_package display_value="Freelance Platform" source="x_895127_freelance">bfb041721b221110215355f0604bcb7b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope>
+        <sys_update_name>sp_widget_306b44de97c3111029d0b0efe153af8c</sys_update_name>
+        <template><![CDATA[<div class="containerr">
+  <!-- your widget template -->
+  <div class="contH1">
+    <h1>Sign Up</h1>
+  </div>
+  <form class="formCont">
+    <div class="mb-3">
+      <h3>First Name</h3>
+      <input class="input" type="text" id="firstName" name="firstName" ng-model="c.firstName" />
+    </div>
+    <div class="mb-3">
+      <h3>Last Name</h3>
+      <input class="input" type="text" id="lastName" name="lastName" ng-model="c.lastName" />
+    </div>
+    <div class="mb-3">
+      <h3>User ID</h3>
+      <input class="input" type="text" id="userID" name="userID" ng-model="c.userID" />
+    </div>
+    <div class="mb-3">
+      <h3>Email</h3>
+      <input class="input" type="text" id="email" name="email" ng-model="c.email" />
+    </div>
+   <!---- <div class="mb-3">
+      <h3>Password</h3>
+      <input class="input" type="password" id="password" name="password" ng-model="c.password" />
+    </div> --->
+    <div class="mb-3 down">
+      <h3>Are you a Freelancer</h3>
+      <input class="inputRound" type="checkbox" id="client" name="client" ng-model="c.client" />
+    	<div class="List">
+          <ul class="mb-3 lista">
+            <h2>Select your group:</h2>
+            <li>
+              <h3>ServiceNow Dev</h3>
+            	<input class="inputRound" type="checkbox" id="ServiceNow" name="ServiceNow" ng-model="c.ServiceNow" default=false/>
+            </li>
+            <li>
+              <h3>Cibersecurity</h3>
+            	<input class="inputRound" type="checkbox" id="CiberSecurity" name="CiberSecurity" ng-model="c.CiberSecurity" default=false/>
+            </li>
+            <li>
+              <h3>App development</h3>
+            	<input class="inputRound" type="checkbox" id="AppDev" name="AppDev" ng-model="c.AppDev" default=false/>
+            </li>
+            <li>
+              <h3>Web Dev</h3>
+            	<input class="inputRound" type="checkbox" id="WebDev" name="WebDev" ng-model="c.WebDev" default=false/>
+            </li>
+            <li>
+              <h3>Other</h3>
+            	<input class="inputRound" type="checkbox" id="Other" name="Other" ng-model="c.Other" default=false/>
+            </li>
+          </ul>
+      </div>
+    </div>
+    <div class="Men24">
+      <h2>
+        Your password will be generated in 24hrs
+      </h2>
+    </div>
+    <a class="Link" href='https://dev134587.service-now.com/fr?id=landing_freelance'>
+    	<button name="test" type="submit" class="btn btn-lg btn-primary btn-block Col" ng-click="c.submit()">Register</button>
+    </a>
+  </form>
+</div>
+]]></template>
+    </sp_widget>
+</record_update>

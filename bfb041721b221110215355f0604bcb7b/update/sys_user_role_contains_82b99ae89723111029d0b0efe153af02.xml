@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="canvas_user" name="canvas_user">8536f54bc713330072b211d4d8c26080</contains>
+        <role display_value="x_895127_freelance.customer_user" name="x_895127_freelance.customer_user">a16e814a475311105da1da97436d4389</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-30 16:02:33</sys_created_on>
+        <sys_id>82b99ae89723111029d0b0efe153af02</sys_id>
+        <sys_name>canvas_user.x_895127_freelance.customer_user</sys_name>
+        <sys_package display_value="Freelance Platform" source="x_895127_freelance">bfb041721b221110215355f0604bcb7b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope>
+        <sys_update_name>sys_user_role_contains_82b99ae89723111029d0b0efe153af02</sys_update_name>
+    </sys_user_role_contains>
+</record_update>
