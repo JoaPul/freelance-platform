@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">42173dd447e311105da1da97436d4361</sp_column>
+        <sp_widget display_value="My Surveys">04b1cc07c3231200e44574e1c1d3ae96</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-29 18:52:47</sys_created_on>
+        <sys_id>42173dd447e311105da1da97436d4363</sys_id>
+        <sys_name>My Surveys</sys_name>
+        <sys_package display_value="Freelance Platform" source="x_895127_freelance">bfb041721b221110215355f0604bcb7b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope>
+        <sys_update_name>sp_instance_42173dd447e311105da1da97436d4363</sys_update_name>
+        <title>My Surveys</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=42173dd447e311105da1da97436d4363"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</application>
+        <file_path/>
+        <instance_id>c6554e9ddb4615948aea21c40596190d</instance_id>
+        <instance_name>dev134587</instance_name>
+        <name>sp_instance_42173dd447e311105da1da97436d4363</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">42173dd447e311105da1da97436d4361</sp_column>
+        <sp_widget display_value="My Surveys">04b1cc07c3231200e44574e1c1d3ae96</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-29 18:52:47</sys_created_on>
+        <sys_id>42173dd447e311105da1da97436d4363</sys_id>
+        <sys_name>My Surveys</sys_name>
+        <sys_package display_value="Freelance Platform" source="x_895127_freelance">bfb041721b221110215355f0604bcb7b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope>
+        <sys_update_name>sp_instance_42173dd447e311105da1da97436d4363</sys_update_name>
+        <title>My Surveys</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=42173dd447e311105da1da97436d4363"/>
+</record_update>]]></payload>
+        <payload_hash>-1582554516</payload_hash>
+        <record_name>My Surveys</record_name>
+        <reverted_from/>
+        <source>c6586ed81b2f1510215355f0604bcb75</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-29 22:30:58</sys_created_on>
+        <sys_id>c609e25c1b2f1510215355f0604bcb2b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184c583c8760000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-29 22:30:58</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>0609e25c792f151037b88421fc24092b</update_guid>
+        <update_guid_history>0609e25c792f151037b88421fc24092b:0,acc9f510fcab15103fb30e1f6afe0a7e:-643864309</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="My Surveys">2c412b6c1b6f5510215355f0604bcb4f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-30 21:15:07</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>919f617c1e6a47c8b4429148ab12c004</sys_id>
+        <sys_metadata>42173dd447e311105da1da97436d4363</sys_metadata>
+        <sys_name>My Surveys</sys_name>
+        <sys_package display_value="Freelance Platform" source="x_895127_freelance">bfb041721b221110215355f0604bcb7b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope>
+        <sys_scope_delete display_value="">9a0d25254005466f92e02c9b6b125009</sys_scope_delete>
+        <sys_update_name>sp_instance_42173dd447e311105da1da97436d4363</sys_update_name>
+        <sys_update_version display_value="sp_instance_42173dd447e311105da1da97436d4363">c609e25c1b2f1510215355f0604bcb2b</sys_update_version>
+    </sys_metadata_delete>
+</record_update>
