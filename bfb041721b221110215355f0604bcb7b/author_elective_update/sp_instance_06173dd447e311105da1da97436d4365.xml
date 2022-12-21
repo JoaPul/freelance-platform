@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph>empty</glyph>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">42173dd447e311105da1da97436d4361</sp_column>
+        <sp_widget display_value="Announcements">94c300c7e777320075c2a117c2f6a9e7</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-29 18:52:47</sys_created_on>
+        <sys_id>06173dd447e311105da1da97436d4365</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Announcements</sys_name>
+        <sys_package display_value="Freelance Platform" source="x_895127_freelance">bfb041721b221110215355f0604bcb7b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope>
+        <sys_update_name>sp_instance_06173dd447e311105da1da97436d4365</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-30 21:15:07</sys_updated_on>
+        <title>Announcements</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"title": {
+		"value": "Announcements",
+		"displayValue": "Announcements"
+	},
+	"glyph": {
+		"value": "empty",
+		"displayValue": ""
+	},
+	"type": {
+		"value": "",
+		"displayValue": ""
+	},
+	"paginate": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"max_records": {
+		"value": 5,
+		"displayValue": "5"
+	},
+	"view_all_page": {
+		"value": "ecc828d3e733320075c2a117c2f6a91f",
+		"displayValue": "announcements"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=06173dd447e311105da1da97436d4365"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</application>
+        <file_path/>
+        <instance_id>c6554e9ddb4615948aea21c40596190d</instance_id>
+        <instance_name>dev134587</instance_name>
+        <name>sp_instance_06173dd447e311105da1da97436d4365</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph&gt;empty&lt;/glyph&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="2"&gt;42173dd447e311105da1da97436d4361&lt;/sp_column&gt;&lt;sp_widget display_value="Announcements"&gt;94c300c7e777320075c2a117c2f6a9e7&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-11-29 18:52:47&lt;/sys_created_on&gt;&lt;sys_id&gt;06173dd447e311105da1da97436d4365&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Announcements&lt;/sys_name&gt;&lt;sys_package display_value="Freelance Platform" source="x_895127_freelance"&gt;bfb041721b221110215355f0604bcb7b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Freelance Platform"&gt;bfb041721b221110215355f0604bcb7b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_06173dd447e311105da1da97436d4365&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-11-30 21:15:07&lt;/sys_updated_on&gt;&lt;title&gt;Announcements&lt;/title&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"title": {
+		"value": "Announcements",
+		"displayValue": "Announcements"
+	},
+	"glyph": {
+		"value": "empty",
+		"displayValue": ""
+	},
+	"type": {
+		"value": "",
+		"displayValue": ""
+	},
+	"paginate": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"max_records": {
+		"value": 5,
+		"displayValue": "5"
+	},
+	"view_all_page": {
+		"value": "ecc828d3e733320075c2a117c2f6a91f",
+		"displayValue": "announcements"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=06173dd447e311105da1da97436d4365"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-820146718</payload_hash>
+        <record_name>Announcements</record_name>
+        <reverted_from/>
+        <source>b5f82e1c1b2f1510215355f0604bcba2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-30 21:15:07</sys_created_on>
+        <sys_id>60412b6c1b6f5510215355f0604bcb61</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184ca64b2730000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-30 21:15:07</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>a8412b6cb86f551052a064a4ecff6360</update_guid>
+        <update_guid_history>a8412b6cb86f551052a064a4ecff6360:-820146718,c209e25cc92f15105f770759bf98561f:0,9cc9f51000ab1510d1088d57c4be8d72:981462536</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Announcements">9541632c1b6f5510215355f0604bcb94</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-30 21:15:10</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>655c7e59ec4c48f29cc89a4fc621a2c4</sys_id>
+        <sys_metadata>06173dd447e311105da1da97436d4365</sys_metadata>
+        <sys_name>Announcements</sys_name>
+        <sys_package display_value="Freelance Platform" source="x_895127_freelance">bfb041721b221110215355f0604bcb7b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope>
+        <sys_scope_delete display_value="">9a0d25254005466f92e02c9b6b125009</sys_scope_delete>
+        <sys_update_name>sp_instance_06173dd447e311105da1da97436d4365</sys_update_name>
+        <sys_update_version display_value="sp_instance_06173dd447e311105da1da97436d4365">60412b6c1b6f5510215355f0604bcb61</sys_update_version>
+    </sys_metadata_delete>
+</record_update>
