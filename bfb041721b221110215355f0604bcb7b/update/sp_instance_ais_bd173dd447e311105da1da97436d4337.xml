@@ -4,7 +4,9 @@
         <ai_search_source_filter/>
         <class_name/>
         <color>default</color>
-        <css/>
+        <css>.sp-tagline-color{&#13;
+	color: white;&#13;
+}</css>
         <disable_all_suggestions>false</disable_all_suggestions>
         <glyph/>
         <id/>
@@ -29,7 +31,12 @@
         <sys_update_name>sp_instance_ais_bd173dd447e311105da1da97436d4337</sys_update_name>
         <title>How can we help?</title>
         <url/>
-        <widget_parameters/>
+        <widget_parameters><![CDATA[{
+	"typeahead_search": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]></widget_parameters>
     </sp_instance_ais>
     <sys_translated_text action="delete_multiple" query="documentkey=bd173dd447e311105da1da97436d4337"/>
 </record_update>
