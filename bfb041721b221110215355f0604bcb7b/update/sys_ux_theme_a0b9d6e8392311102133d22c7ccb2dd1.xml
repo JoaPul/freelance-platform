@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_theme">
+    <sys_ux_theme action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <name>Starter Workspace Theme</name>
+        <parent display_value="Base Agent Workspace theme">c012213bc39b10101d590cf06e40dd32</parent>
+        <sys_class_name>sys_ux_theme</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-30 16:02:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a0b9d6e8392311102133d22c7ccb2dd1</sys_id>
+        <sys_name>Starter Workspace Theme</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Freelance Platform" source="x_895127_freelance">bfb041721b221110215355f0604bcb7b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope>
+        <sys_update_name>sys_ux_theme_a0b9d6e8392311102133d22c7ccb2dd1</sys_update_name>
+        <theme/>
+    </sys_ux_theme>
+</record_update>

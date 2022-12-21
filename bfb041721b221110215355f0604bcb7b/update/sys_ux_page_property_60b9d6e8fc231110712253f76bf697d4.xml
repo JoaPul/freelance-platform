@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>globalSearchDataConfigId</name>
+        <page display_value="Freelance Platform Quotations ">e8b9d6e81f2311108f58206d7ba2fad0</page>
+        <required_translations>[]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-30 16:02:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>60b9d6e8fc231110712253f76bf697d4</sys_id>
+        <sys_name>globalSearchDataConfigId</sys_name>
+        <sys_package display_value="Freelance Platform" source="x_895127_freelance">bfb041721b221110215355f0604bcb7b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope>
+        <sys_update_name>sys_ux_page_property_60b9d6e8fc231110712253f76bf697d4</sys_update_name>
+        <type>string</type>
+        <unique_name>x_895127_freelance.e8b9d6e81f2311108f58206d7ba2fad0.root.globalSearchDataConfigId</unique_name>
+        <value>e0b9d6e8b223111040bdb89105c473d4</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=60b9d6e8fc231110712253f76bf697d4"/>
+</record_update>

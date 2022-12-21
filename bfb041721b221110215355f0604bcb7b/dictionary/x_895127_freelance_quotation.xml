@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="aeead7809713111029d0b0efe153afee" label="Freelance Quotation" max_length="40" name="x_895127_freelance_quotation" type="collection">
+    <element db_object_id="aeead7809713111029d0b0efe153afee" label="Freelance Quotation" max_length="40" name="x_895127_freelance_quotation" text_index="true" type="collection">
         <element label="Approved" max_length="40" name="approved" type="boolean"/>
         <element label="Attachment" max_length="40" name="attachment" type="file_attachment"/>
         <element label="Client" max_length="32" name="client" reference="x_895127_freelance_freelance" reference_qual="freelancer=false^EQ" reference_qual_condition="freelancer=false^EQ" type="reference"/>
         <element label="Description" max_length="800" name="description" type="string"/>
         <element label="Freelancer" max_length="32" name="freelancer" reference="x_895127_freelance_freelance" type="reference"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Project" max_length="32" name="project" reference="x_895127_freelance_projects" type="reference"/>
         <element label="Short_Description" max_length="100" name="short_description" type="string"/>
         <element choice="3" default="1" label="State" max_length="40" name="state" type="choice">
             <choice>
@@ -20,6 +21,9 @@
         </index>
         <index name="index2">
             <element name="freelancer"/>
+        </index>
+        <index name="index3">
+            <element name="project"/>
         </index>
     </element>
 </database>
