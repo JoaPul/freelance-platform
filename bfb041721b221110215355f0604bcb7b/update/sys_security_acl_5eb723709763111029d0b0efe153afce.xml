@@ -2,12 +2,14 @@
     <sys_security_acl action="INSERT_OR_UPDATE">
         <active>true</active>
         <admin_overrides>true</admin_overrides>
-        <advanced>false</advanced>
+        <advanced>true</advanced>
         <condition/>
         <description>Write Access to Project Field</description>
         <name>x_895127_freelance_quotation.project</name>
         <operation display_value="write">write</operation>
-        <script/>
+        <script><![CDATA[answer = false;
+if (current.isValidRecord() == false)
+	answer = true;]]></script>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-12-01 16:23:25</sys_created_on>
