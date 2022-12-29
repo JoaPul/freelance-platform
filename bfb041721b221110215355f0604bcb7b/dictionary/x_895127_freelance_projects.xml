@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="5b54c864471311105da1da97436d432e" label="Projects" max_length="40" name="x_895127_freelance_projects" type="collection">
+    <element audit="true" db_object_id="5b54c864471311105da1da97436d432e" label="Projects" max_length="40" name="x_895127_freelance_projects" type="collection">
         <element label="Category" max_length="42" name="category" type="string"/>
         <element label="Client" max_length="32" name="client" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" display="true" label="Description" max_length="8000" name="description" type="html"/>
