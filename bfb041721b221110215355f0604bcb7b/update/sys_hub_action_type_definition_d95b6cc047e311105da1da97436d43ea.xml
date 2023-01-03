@@ -121,7 +121,7 @@
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Send Email to All Groups">d95b6cc047e311105da1da97436d43ea</action>
         <cid>bd3252d4-d483-4068-9f01-9ca6b240c241</cid>
-        <error_handling_type>1</error_handling_type>
+        <error_handling_type>2</error_handling_type>
         <extended_inputs/>
         <extended_inputs/>
         <extended_outputs/>
@@ -135,10 +135,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-28 18:58:13</sys_created_on>
         <sys_id>f3be60c447e311105da1da97436d4314</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-28 22:53:45</sys_updated_on>
+        <sys_updated_on>2023-01-03 20:21:56</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f3be60c447e311105da1da97436d4314"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -163,12 +163,12 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-28 18:58:14</sys_created_on>
         <sys_id>08ce60c447e311105da1da97436d4329</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-28 22:53:45</sys_updated_on>
+        <sys_updated_on>2023-01-03 20:21:56</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 	var emails = [];
-	while(inputs.allUserGroup.next())
+	while(inputs.allUserGroup.next()){
 		emails.push(allUserGroup.user.email);
 	}
 	outputs.allEmails = emails.join(',');
@@ -867,17 +867,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Send Email to All Groups">d95b6cc047e311105da1da97436d43ea</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"69cea0c447e311105da1da97436d4368","name":"plan","plan_signature":null}}</plan>
-        <snapshot>03a4298847a711105da1da97436d43d6</snapshot>
+        <snapshot>fe2b5ea747c021105da1da97436d43e0</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-28 18:58:20</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>69cea0c447e311105da1da97436d4368</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-28 22:53:51</sys_updated_on>
+        <sys_updated_on>2023-01-03 20:22:03</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -987,7 +987,7 @@
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Send Email to All Groups">15ce60c447e311105da1da97436d43b6</action>
         <cid>bd3252d4-d483-4068-9f01-9ca6b240c241</cid>
-        <error_handling_type>1</error_handling_type>
+        <error_handling_type>2</error_handling_type>
         <extended_inputs/>
         <extended_inputs/>
         <extended_outputs/>
@@ -1001,10 +1001,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-28 18:58:19</sys_created_on>
         <sys_id>ddce60c447e311105da1da97436d43c0</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-28 22:53:50</sys_updated_on>
+        <sys_updated_on>2023-01-03 20:22:02</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ddce60c447e311105da1da97436d43c0"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1015,12 +1015,12 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-28 18:58:19</sys_created_on>
         <sys_id>9dce60c447e311105da1da97436d43cf</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-28 22:53:50</sys_updated_on>
+        <sys_updated_on>2023-01-03 20:22:02</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 	var emails = [];
-	while(inputs.allUserGroup.next())
+	while(inputs.allUserGroup.next()){
 		emails.push(allUserGroup.user.email);
 	}
 	outputs.allEmails = emails.join(',');
