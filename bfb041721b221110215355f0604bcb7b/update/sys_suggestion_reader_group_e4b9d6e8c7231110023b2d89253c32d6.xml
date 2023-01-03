@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_suggestion_reader_group">
+    <sys_suggestion_reader_group action="INSERT_OR_UPDATE">
+        <click_in_mode>false</click_in_mode>
+        <context_config_id/>
+        <limit>5</limit>
+        <order>300</order>
+        <section_header/>
+        <suggestion_type>Suggested Query Reader Group for Starter Workspace AI Search Configuration</suggestion_type>
+        <sys_class_name>sys_suggestion_reader_group</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-30 16:02:29</sys_created_on>
+        <sys_id>e4b9d6e8c7231110023b2d89253c32d6</sys_id>
+        <sys_name>Suggested Query Reader Group for Starter Workspace AI Search Configuration</sys_name>
+        <sys_package display_value="Freelance Platform" source="x_895127_freelance">bfb041721b221110215355f0604bcb7b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope>
+        <sys_update_name>sys_suggestion_reader_group_e4b9d6e8c7231110023b2d89253c32d6</sys_update_name>
+    </sys_suggestion_reader_group>
+</record_update>

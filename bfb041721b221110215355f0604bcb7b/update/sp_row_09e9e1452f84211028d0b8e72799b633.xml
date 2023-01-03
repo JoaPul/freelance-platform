@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row">
+    <sp_row action="INSERT_OR_UPDATE">
+        <class_name/>
+        <order>1</order>
+        <sp_column/>
+        <sp_container display_value="Form_Fr - Container 1">c1e9e1452f84211028d0b8e72799b631</sp_container>
+        <sys_class_name>sp_row</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-26 22:21:56</sys_created_on>
+        <sys_id>09e9e1452f84211028d0b8e72799b633</sys_id>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Freelance Platform" source="x_895127_freelance">bfb041721b221110215355f0604bcb7b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope>
+        <sys_update_name>sp_row_09e9e1452f84211028d0b8e72799b633</sys_update_name>
+    </sp_row>
+</record_update>

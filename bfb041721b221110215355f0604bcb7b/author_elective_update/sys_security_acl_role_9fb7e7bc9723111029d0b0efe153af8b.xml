@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-01 16:23:25</sys_created_on>
+        <sys_id>9fb7e7bc9723111029d0b0efe153af8b</sys_id>
+        <sys_name>.x_895127_freelance.admin</sys_name>
+        <sys_package display_value="Freelance Platform" source="x_895127_freelance">bfb041721b221110215355f0604bcb7b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope>
+        <sys_security_acl display_value="x_895127_freelance_quotation.project">5eb723709763111029d0b0efe153afce</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_9fb7e7bc9723111029d0b0efe153af8b</sys_update_name>
+        <sys_user_role display_value="x_895127_freelance.admin" name="x_895127_freelance.admin">93bef72047b211105da1da97436d4360</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</application>
+        <file_path/>
+        <instance_id>c6554e9ddb4615948aea21c40596190d</instance_id>
+        <instance_name>dev134587</instance_name>
+        <name>sys_security_acl_role_9fb7e7bc9723111029d0b0efe153af8b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-01 16:23:25</sys_created_on>
+        <sys_id>9fb7e7bc9723111029d0b0efe153af8b</sys_id>
+        <sys_name>.x_895127_freelance.admin</sys_name>
+        <sys_package display_value="Freelance Platform" source="x_895127_freelance">bfb041721b221110215355f0604bcb7b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope>
+        <sys_security_acl display_value="x_895127_freelance_quotation.project">5eb723709763111029d0b0efe153afce</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_9fb7e7bc9723111029d0b0efe153af8b</sys_update_name>
+        <sys_user_role display_value="x_895127_freelance.admin" name="x_895127_freelance.admin">93bef72047b211105da1da97436d4360</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>]]></payload>
+        <payload_hash>1067964230</payload_hash>
+        <record_name>.x_895127_freelance.admin</record_name>
+        <reverted_from/>
+        <source>2c96c3931bb79110215355f0604bcbf6</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-21 18:41:39</sys_created_on>
+        <sys_id>dd878b171bb79110215355f0604bcb8d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18535fdbd250000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-21 18:41:39</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>9d878b1726b791100938d77ce906e08d</update_guid>
+        <update_guid_history>9d878b1726b791100938d77ce906e08d:1067964230</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value=".x_895127_freelance.admin">c34d4db71bfbd110215355f0604bcb3a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-22 23:04:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>0f5c26d8030e4019a62524cb7ee906d1</sys_id>
+        <sys_metadata>9fb7e7bc9723111029d0b0efe153af8b</sys_metadata>
+        <sys_name>.x_895127_freelance.admin</sys_name>
+        <sys_package display_value="Freelance Platform" source="x_895127_freelance">bfb041721b221110215355f0604bcb7b</sys_package>
+        <sys_parent display_value="x_895127_freelance_quotation.project">5eb723709763111029d0b0efe153afce</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope>
+        <sys_scope_delete display_value="">9a0d25254005466f92e02c9b6b125009</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_9fb7e7bc9723111029d0b0efe153af8b</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_9fb7e7bc9723111029d0b0efe153af8b">dd878b171bb79110215355f0604bcb8d</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

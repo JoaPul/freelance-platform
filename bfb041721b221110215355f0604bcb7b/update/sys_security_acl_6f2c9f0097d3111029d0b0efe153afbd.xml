@@ -8,11 +8,16 @@
         <name>x_895127_freelance_quotation</name>
         <operation display_value="read">read</operation>
         <script><![CDATA[answer = false;
+// gs.info("sysid"+current.sys_id);
+// gs.info("operation"+current.operation() == "insert");
+// gs.info("validRecor"+current.isValidRecord());
 if (current.client.user == gs.getUserID()) {
     answer = true;
-}else if (current.freelancer.user == gs.getUserID()){
-        answer = true;
-    }]]></script>
+} else if (current.freelancer.user == gs.getUserID()) {
+    answer = true;
+} else if (current.isValidRecord() == false){
+	answer = true;
+}]]></script>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-16 21:20:16</sys_created_on>

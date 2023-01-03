@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <condition/>
+        <description>Write Access to Project Field</description>
+        <name>x_895127_freelance_quotation.project</name>
+        <operation display_value="write">write</operation>
+        <script><![CDATA[answer = false;
+if (current.isValidRecord() == false)
+	answer = true;]]></script>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-01 16:23:25</sys_created_on>
+        <sys_id>5eb723709763111029d0b0efe153afce</sys_id>
+        <sys_name>x_895127_freelance_quotation.project</sys_name>
+        <sys_package display_value="Freelance Platform" source="x_895127_freelance">bfb041721b221110215355f0604bcb7b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope>
+        <sys_update_name>sys_security_acl_5eb723709763111029d0b0efe153afce</sys_update_name>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>
