@@ -28,7 +28,7 @@ $grid-gutter-width: 15px !default;</css_variables>
         <homepage display_value="fr_index">3d173dd447e311105da1da97436d430f</homepage>
         <icon>119fd2795bd56300a9ad49ed5a62bc40</icon>
         <kb_knowledge_base display_value="IT">a7e8a78bff0221009b20ffffffffff17</kb_knowledge_base>
-        <kb_knowledge_page display_value="kb_view2">26c2e030d7201200a9addd173e24d437</kb_knowledge_page>
+        <kb_knowledge_page/>
         <login_page display_value="landing_freelance">271c66ef477211105da1da97436d4395</login_page>
         <logo>95b3a5c81babd110215355f0604bcb48</logo>
         <notfound_page display_value="404">3c2c9063cb11020000f8d856634c9c1f</notfound_page>
@@ -51,7 +51,7 @@ $grid-gutter-width: 15px !default;</css_variables>
         <search_application display_value="Service Portal Default Search Application">00731b9d5b231010d9a5ce1a8581c7dd</search_application>
         <search_results_configuration display_value="Service Portal Search">80eb579d53671010968addeeff7b1215</search_results_configuration>
         <sp_chat_queue/>
-        <sp_rectangle_menu display_value="SP Header Menu">d150fd31cb10020000f8d856634c9ce6</sp_rectangle_menu>
+        <sp_rectangle_menu/>
         <sys_class_name>sp_portal</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-09 19:03:48</sys_created_on>
@@ -61,7 +61,7 @@ $grid-gutter-width: 15px !default;</css_variables>
         <sys_policy/>
         <sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope>
         <sys_update_name>sp_portal_24d9f27d474311105da1da97436d43e6</sys_update_name>
-        <theme display_value="HRM Theme">9b65ab7c73131300c629e1e54cf6a754</theme>
+        <theme display_value="Fr HRM Theme">7d3e3e9d1b0c2510215355f0604bcb0d</theme>
         <title>Freelancer Portal</title>
         <ts_index_group display_value="portal_index_group">2c3e7d1513c93300e618bfd63244b0d7</ts_index_group>
         <url_suffix>fr</url_suffix>
@@ -72,7 +72,6 @@ $grid-gutter-width: 15px !default;</css_variables>
         <chunk_size_bytes>700000</chunk_size_bytes>
         <compressed>true</compressed>
         <content_type>image/png</content_type>
-        <encryption_context/>
         <file_name>logo</file_name>
         <hash>7bbe114a74d744ed9089b118cf899ee6cc466efadd218e005eba32b2c0dab33a</hash>
         <image_height>1824</image_height>
