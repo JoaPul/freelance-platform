@@ -4,9 +4,7 @@
         <ai_search_source_filter/>
         <class_name/>
         <color>default</color>
-        <css>.sp-tagline-color{&#13;
-	color: white;&#13;
-}</css>
+        <css/>
         <disable_all_suggestions>false</disable_all_suggestions>
         <glyph/>
         <id/>
@@ -16,19 +14,19 @@
         <search_application/>
         <search_results_configuration/>
         <short_description/>
-        <size>lg</size>
+        <size>md</size>
         <sp_column display_value="1">b1173dd447e311105da1da97436d4335</sp_column>
-        <sp_widget display_value="Homepage Search">200fbd96cb20020000f8d856634c9ca1</sp_widget>
+        <sp_widget display_value="FR Homepage Search">d26c7a5d1b0c2510215355f0604bcbb4</sp_widget>
         <spell_check_font_size>xl</spell_check_font_size>
         <sys_class_name>sp_instance_ais</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-11-29 18:52:46</sys_created_on>
-        <sys_id>bd173dd447e311105da1da97436d4337</sys_id>
+        <sys_created_on>2022-12-27 23:02:07</sys_created_on>
+        <sys_id>d3ac765d1b0c2510215355f0604bcbc0</sys_id>
         <sys_name>How can we help?</sys_name>
         <sys_package display_value="Freelance Platform" source="x_895127_freelance">bfb041721b221110215355f0604bcb7b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope>
-        <sys_update_name>sp_instance_ais_bd173dd447e311105da1da97436d4337</sys_update_name>
+        <sys_update_name>sp_instance_ais_d3ac765d1b0c2510215355f0604bcbc0</sys_update_name>
         <title>How can we help?</title>
         <url/>
         <widget_parameters><![CDATA[{
@@ -38,5 +36,5 @@
 	}
 }]]></widget_parameters>
     </sp_instance_ais>
-    <sys_translated_text action="delete_multiple" query="documentkey=bd173dd447e311105da1da97436d4337"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=d3ac765d1b0c2510215355f0604bcbc0"/>
 </record_update>

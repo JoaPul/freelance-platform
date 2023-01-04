@@ -45,7 +45,7 @@
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
-        <recipient_fields>client.email</recipient_fields>
+        <recipient_fields>project.client.email</recipient_fields>
         <recipient_groups/>
         <recipient_users/>
         <reply_to/>

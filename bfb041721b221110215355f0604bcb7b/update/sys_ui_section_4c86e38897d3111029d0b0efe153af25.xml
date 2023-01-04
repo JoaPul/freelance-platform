@@ -4,13 +4,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-12-01 15:55:44</sys_created_on>
-            <sys_id>ffb167789723111029d0b0efe153af44</sys_id>
+            <sys_created_on>2023-01-04 21:12:54</sys_created_on>
+            <sys_id>19603ffb1b402110215355f0604bcb79</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_895127_freelance_quotation" sys_domain="global" view="Default view">4c86e38897d3111029d0b0efe153af25</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-12-01 15:55:44</sys_updated_on>
+            <sys_updated_on>2023-01-04 21:12:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,27 +18,27 @@
             <element>project</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-12-01 15:55:44</sys_created_on>
-            <sys_id>73b167789723111029d0b0efe153af45</sys_id>
+            <sys_created_on>2023-01-04 21:12:54</sys_created_on>
+            <sys_id>51603ffb1b402110215355f0604bcb7a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_895127_freelance_quotation" sys_domain="global" view="Default view">4c86e38897d3111029d0b0efe153af25</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-12-01 15:55:44</sys_updated_on>
+            <sys_updated_on>2023-01-04 21:12:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>client</element>
+            <element>project.client</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-12-01 15:55:44</sys_created_on>
-            <sys_id>f3b167789723111029d0b0efe153af45</sys_id>
+            <sys_created_on>2023-01-04 21:12:54</sys_created_on>
+            <sys_id>55603ffb1b402110215355f0604bcb7a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_895127_freelance_quotation" sys_domain="global" view="Default view">4c86e38897d3111029d0b0efe153af25</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-12-01 15:55:44</sys_updated_on>
+            <sys_updated_on>2023-01-04 21:12:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>short_description</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-12-01 15:55:44</sys_created_on>
-            <sys_id>77b167789723111029d0b0efe153af45</sys_id>
+            <sys_created_on>2023-01-04 21:12:54</sys_created_on>
+            <sys_id>59603ffb1b402110215355f0604bcb7a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_895127_freelance_quotation" sys_domain="global" view="Default view">4c86e38897d3111029d0b0efe153af25</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-12-01 15:55:44</sys_updated_on>
+            <sys_updated_on>2023-01-04 21:12:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>description</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-12-01 15:55:44</sys_created_on>
-            <sys_id>f7b167789723111029d0b0efe153af45</sys_id>
+            <sys_created_on>2023-01-04 21:12:54</sys_created_on>
+            <sys_id>5d603ffb1b402110215355f0604bcb7a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_895127_freelance_quotation" sys_domain="global" view="Default view">4c86e38897d3111029d0b0efe153af25</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-12-01 15:55:44</sys_updated_on>
+            <sys_updated_on>2023-01-04 21:12:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,13 +74,13 @@
             <element>.begin_split</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-12-01 15:55:44</sys_created_on>
-            <sys_id>7bb167789723111029d0b0efe153af45</sys_id>
+            <sys_created_on>2023-01-04 21:12:54</sys_created_on>
+            <sys_id>51603ffb1b402110215355f0604bcb7b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_895127_freelance_quotation" sys_domain="global" view="Default view">4c86e38897d3111029d0b0efe153af25</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-12-01 15:55:44</sys_updated_on>
+            <sys_updated_on>2023-01-04 21:12:54</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -88,13 +88,13 @@
             <element>freelancer</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-12-01 15:55:44</sys_created_on>
-            <sys_id>fbb167789723111029d0b0efe153af45</sys_id>
+            <sys_created_on>2023-01-04 21:12:54</sys_created_on>
+            <sys_id>55603ffb1b402110215355f0604bcb7b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_895127_freelance_quotation" sys_domain="global" view="Default view">4c86e38897d3111029d0b0efe153af25</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-12-01 15:55:44</sys_updated_on>
+            <sys_updated_on>2023-01-04 21:12:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -102,13 +102,13 @@
             <element>attachment</element>
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-12-01 15:55:44</sys_created_on>
-            <sys_id>7fb167789723111029d0b0efe153af45</sys_id>
+            <sys_created_on>2023-01-04 21:12:54</sys_created_on>
+            <sys_id>59603ffb1b402110215355f0604bcb7b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_895127_freelance_quotation" sys_domain="global" view="Default view">4c86e38897d3111029d0b0efe153af25</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-12-01 15:55:44</sys_updated_on>
+            <sys_updated_on>2023-01-04 21:12:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -116,13 +116,13 @@
             <element>.split</element>
             <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-12-01 15:55:44</sys_created_on>
-            <sys_id>ffb167789723111029d0b0efe153af45</sys_id>
+            <sys_created_on>2023-01-04 21:12:54</sys_created_on>
+            <sys_id>5d603ffb1b402110215355f0604bcb7b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_895127_freelance_quotation" sys_domain="global" view="Default view">4c86e38897d3111029d0b0efe153af25</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-12-01 15:55:44</sys_updated_on>
+            <sys_updated_on>2023-01-04 21:12:54</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -130,13 +130,13 @@
             <element>state</element>
             <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-12-01 15:55:44</sys_created_on>
-            <sys_id>73b167789723111029d0b0efe153af46</sys_id>
+            <sys_created_on>2023-01-04 21:12:54</sys_created_on>
+            <sys_id>51603ffb1b402110215355f0604bcb7c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_895127_freelance_quotation" sys_domain="global" view="Default view">4c86e38897d3111029d0b0efe153af25</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-12-01 15:55:44</sys_updated_on>
+            <sys_updated_on>2023-01-04 21:12:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -144,13 +144,13 @@
             <element>total</element>
             <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-12-01 15:55:44</sys_created_on>
-            <sys_id>f3b167789723111029d0b0efe153af46</sys_id>
+            <sys_created_on>2023-01-04 21:12:54</sys_created_on>
+            <sys_id>55603ffb1b402110215355f0604bcb7c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_895127_freelance_quotation" sys_domain="global" view="Default view">4c86e38897d3111029d0b0efe153af25</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-12-01 15:55:44</sys_updated_on>
+            <sys_updated_on>2023-01-04 21:12:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

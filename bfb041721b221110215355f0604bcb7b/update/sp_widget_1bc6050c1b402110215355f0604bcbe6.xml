@@ -172,11 +172,14 @@ a.color_box .fa {
         <name>fr Posted projects</name>
         <option_schema>[{"name":"link_template","section":"Presentation","label":"Template","type":"choice","choices":[{"label":"Top Icon","value":"Top Icon"},{"label":"Circle Icon","value":"Circle Icon"},{"label":"Color Box","value":"Color Box"}]}]</option_schema>
         <public>true</public>
-        <roles/>
+        <roles>x_895127_freelance.freelance_role</roles>
         <script><![CDATA[(function(){
 	var gr = $sp.getInstanceRecord();
 	data.href = $sp.getMenuHREF(gr);
 	data.target = options.target || "";
+	if(gs.hasRole('x_895127_freelance.freelance_role')){
+		data.flag = true;
+	}
 })();]]></script>
         <servicenow>false</servicenow>
         <sys_class_name>sp_widget</sys_class_name>
@@ -188,7 +191,7 @@ a.color_box .fa {
         <sys_policy/>
         <sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope>
         <sys_update_name>sp_widget_1bc6050c1b402110215355f0604bcbe6</sys_update_name>
-        <template><![CDATA[<div class="iconlink" ng-class="{'high-contrast': accessibilityModeEnabled}">
+        <template><![CDATA[<div class="iconlink" ng-class="{'high-contrast': accessibilityModeEnabled}" ng-if="data.flag">
   <!--// Top Icon -->
   <a ng-if="::(options.link_template == 'Top Icon' || !options.link_template)" ng-href="{{::data.href}}" class="top_icon {{::options.class_name}}" target="{{::data.target}}">
     <div class="m-b fa fa-{{::options.glyph}} fa-4x {{::options.class_name}} text-{{::options.color}}"></div>
