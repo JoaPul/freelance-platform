@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_vlist">
+    <sp_instance_vlist action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field>number</display_field>
+        <field_list/>
+        <filter/>
+        <glyph/>
+        <id/>
+        <maximum_entries>5</maximum_entries>
+        <order>1</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">ac8fe1d097a3111029d0b0efe153afd5</sp_column>
+        <sp_page display_value="form">ed5f8ec347730200ba13a5554ee49046</sp_page>
+        <sp_widget display_value="Simple List">5b255672cb03020000f8d856634c9c28</sp_widget>
+        <sys_class_name>sp_instance_vlist</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-29 21:13:38</sys_created_on>
+        <sys_id>55579e149727111029d0b0efe153afe6</sys_id>
+        <sys_name/>
+        <sys_package display_value="Freelance Platform" source="x_895127_freelance">bfb041721b221110215355f0604bcb7b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope>
+        <sys_update_name>sp_instance_vlist_55579e149727111029d0b0efe153afe6</sys_update_name>
+        <table>x_895127_freelance_quotation</table>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"always_show": {
+		"value": "",
+		"displayValue": ""
+	},
+	"panel_body_height": {
+		"value": "",
+		"displayValue": ""
+	},
+	"image_field": {
+		"value": "",
+		"displayValue": ""
+	},
+	"secondary_fields": {
+		"value": "short_description,state,client,freelancer",
+		"displayValue": "short_description,state,client,freelancer"
+	},
+	"rounded_images": {
+		"value": "",
+		"displayValue": ""
+	},
+	"list_page": {
+		"value": "",
+		"displayValue": ""
+	},
+	"hide_footer": {
+		"value": "",
+		"displayValue": ""
+	},
+	"view": {
+		"value": "",
+		"displayValue": ""
+	},
+	"disable_record_watcher": {
+		"value": "",
+		"displayValue": ""
+	},
+	"filter_acls": {
+		"value": "true",
+		"displayValue": "true"
+	}
+}]]></widget_parameters>
+    </sp_instance_vlist>
+    <sys_translated_text action="DELETE" query="documentkey=55579e149727111029d0b0efe153afe6"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</application>
+        <file_path/>
+        <instance_id>c6554e9ddb4615948aea21c40596190d</instance_id>
+        <instance_name>dev134587</instance_name>
+        <name>sp_instance_vlist_55579e149727111029d0b0efe153afe6</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_vlist"&gt;
+    &lt;sp_instance_vlist action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;class_name/&gt;
+        &lt;color&gt;default&lt;/color&gt;
+        &lt;css/&gt;
+        &lt;display_field&gt;number&lt;/display_field&gt;
+        &lt;field_list/&gt;
+        &lt;filter/&gt;
+        &lt;glyph/&gt;
+        &lt;id/&gt;
+        &lt;maximum_entries&gt;5&lt;/maximum_entries&gt;
+        &lt;order&gt;1&lt;/order&gt;
+        &lt;order_by/&gt;
+        &lt;order_direction&gt;asc&lt;/order_direction&gt;
+        &lt;roles/&gt;
+        &lt;short_description/&gt;
+        &lt;size&gt;md&lt;/size&gt;
+        &lt;sp_column display_value="1"&gt;ac8fe1d097a3111029d0b0efe153afd5&lt;/sp_column&gt;
+        &lt;sp_page display_value="form"&gt;ed5f8ec347730200ba13a5554ee49046&lt;/sp_page&gt;
+        &lt;sp_widget display_value="Simple List"&gt;5b255672cb03020000f8d856634c9c28&lt;/sp_widget&gt;
+        &lt;sys_class_name&gt;sp_instance_vlist&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2022-11-29 21:13:38&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;55579e149727111029d0b0efe153afe6&lt;/sys_id&gt;
+        &lt;sys_name/&gt;
+        &lt;sys_package display_value="Freelance Platform" source="x_895127_freelance"&gt;bfb041721b221110215355f0604bcb7b&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="Freelance Platform"&gt;bfb041721b221110215355f0604bcb7b&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sp_instance_vlist_55579e149727111029d0b0efe153afe6&lt;/sys_update_name&gt;
+        &lt;table&gt;x_895127_freelance_quotation&lt;/table&gt;
+        &lt;title/&gt;
+        &lt;url/&gt;
+        &lt;widget_parameters&gt;&lt;![CDATA[{
+	"always_show": {
+		"value": "",
+		"displayValue": ""
+	},
+	"panel_body_height": {
+		"value": "",
+		"displayValue": ""
+	},
+	"image_field": {
+		"value": "",
+		"displayValue": ""
+	},
+	"secondary_fields": {
+		"value": "short_description,state,client,freelancer",
+		"displayValue": "short_description,state,client,freelancer"
+	},
+	"rounded_images": {
+		"value": "",
+		"displayValue": ""
+	},
+	"list_page": {
+		"value": "",
+		"displayValue": ""
+	},
+	"hide_footer": {
+		"value": "",
+		"displayValue": ""
+	},
+	"view": {
+		"value": "",
+		"displayValue": ""
+	},
+	"disable_record_watcher": {
+		"value": "",
+		"displayValue": ""
+	},
+	"filter_acls": {
+		"value": "true",
+		"displayValue": "true"
+	}
+}]]&gt;&lt;/widget_parameters&gt;
+    &lt;/sp_instance_vlist&gt;
+    &lt;sys_translated_text action="delete_multiple" query="documentkey=55579e149727111029d0b0efe153afe6"/&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>-1321889008</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>d235eb7f1b002110215355f0604bcb3e</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-04 20:27:45</sys_created_on>
+        <sys_id>cc16a7ff1b002110215355f0604bcb84</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1857e77e8e60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-04 20:27:45</sys_updated_on>
+        <type>Instance of Simple List</type>
+        <update_guid>0c16a7ff87002110e4aeda70b80e0884</update_guid>
+        <update_guid_history>0c16a7ff87002110e4aeda70b80e0884:0,7ec678333abbd110560b6f42269e1c64:413360818,ddc6783352bbd110f0dae0aaa3c45b17:-1825995469,1609e25c3b2f15104f2944d858b74f70:-1321889008</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">6bc3b3ff1b402110215355f0604bcb7c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-04 21:27:47</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_vlist">sp_instance_vlist</sys_db_object>
+        <sys_id>016f5db586194fe0803dc71e2a586b31</sys_id>
+        <sys_metadata>55579e149727111029d0b0efe153afe6</sys_metadata>
+        <sys_name/>
+        <sys_package display_value="Freelance Platform" source="x_895127_freelance">bfb041721b221110215355f0604bcb7b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope>
+        <sys_scope_delete display_value="">9a0d25254005466f92e02c9b6b125009</sys_scope_delete>
+        <sys_update_name>sp_instance_vlist_55579e149727111029d0b0efe153afe6</sys_update_name>
+        <sys_update_version display_value="sp_instance_vlist_55579e149727111029d0b0efe153afe6">cc16a7ff1b002110215355f0604bcb84</sys_update_version>
+    </sys_metadata_delete>
+</record_update>
