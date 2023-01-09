@@ -157,6 +157,23 @@
       </div>
     </div>
   </div>
+    <div ng-if='data.estado ==  "Completed" '  class="stepwizard" style="border-bottom:0;">
+
+    <div class="stepwizard-row">
+      <div class="stepwizard-step">
+        <button type="button" class=  "btn btn-default btn-circle" disabled = "disabled" >1</button>
+        <p>Quotation Process</p>
+      </div>
+      <div class="stepwizard-step">
+        <button type="button" class="btn btn-default btn-circle" disabled="disabled">2</button>
+        <p>Work in progress</p>
+      </div>
+        <div class="stepwizard-step">
+        <button type="button" class="btn btn-primary btn-circle">3</button>
+        <p>Done</p>
+      	</div>
+    </div>
+  </div>
 </center>]]></template>
     </sp_widget>
 </record_update>

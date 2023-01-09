@@ -14,7 +14,7 @@
         <sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope>
         <sys_update_name>question_choice_b8a4228a479711105da1da97436d435f</sys_update_name>
         <text>Cybersecurity</text>
-        <value>4</value>
+        <value>cs</value>
     </question_choice>
     <fx_price action="delete_multiple" query="id=b8a4228a479711105da1da97436d435f"/>
 </record_update>

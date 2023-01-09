@@ -6,7 +6,8 @@
         <css/>
         <display_field>number</display_field>
         <field_list/>
-        <filter table="x_895127_freelance_projects">clientDYNAMIC90d1921e5f510100a9ad2572f2b477fe<item endquery="false" field="client" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+        <filter table="x_895127_freelance_projects">clientDYNAMIC90d1921e5f510100a9ad2572f2b477fe^NQfreelanceDYNAMIC90d1921e5f510100a9ad2572f2b477fe<item endquery="false" field="client" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+            <item endquery="false" field="freelance" goto="false" newquery="true" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
         </filter>
         <glyph>th-list</glyph>
         <id/>

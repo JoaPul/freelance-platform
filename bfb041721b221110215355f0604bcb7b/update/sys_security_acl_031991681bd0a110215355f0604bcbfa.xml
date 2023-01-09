@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition table="x_895127_freelance_projects.*">state=^ORstate=Pending^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description>Allow write for all fields in x_895127_freelance_projects, for users with role x_895127_freelance.client_role, and if the ACL condition (state=^ORstate=Pending^EQ) evaluates to true.</description>
+        <name>x_895127_freelance_projects.*</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-06 18:08:54</sys_created_on>
+        <sys_id>031991681bd0a110215355f0604bcbfa</sys_id>
+        <sys_name>x_895127_freelance_projects.*</sys_name>
+        <sys_package display_value="Freelance Platform" source="x_895127_freelance">bfb041721b221110215355f0604bcb7b</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope>
+        <sys_update_name>sys_security_acl_031991681bd0a110215355f0604bcbfa</sys_update_name>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>

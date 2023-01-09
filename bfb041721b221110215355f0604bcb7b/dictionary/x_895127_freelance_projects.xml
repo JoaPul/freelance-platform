@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element audit="true" db_object_id="5b54c864471311105da1da97436d432e" label="Projects" max_length="40" name="x_895127_freelance_projects" type="collection">
         <element label="Category" max_length="42" name="category" type="string"/>
-        <element label="Client" max_length="32" name="client" reference="sys_user" type="reference"/>
-        <element attributes="edge_encryption_enabled=true" display="true" label="Description" max_length="8000" name="description" type="html"/>
+        <element label="Client" max_length="32" name="client" read_only="true" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="8000" name="description" type="html"/>
         <element label="Examples" max_length="40" name="examples" type="file_attachment"/>
-        <element label="Freelance" max_length="32" name="freelance" reference="sys_user" type="reference"/>
-        <element label="how many days" max_length="100" name="how_many_days" type="glide_date_time"/>
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element choice="1" label="State" max_length="40" name="state" type="choice">
+        <element label="Freelance" max_length="32" name="freelance" read_only="true" reference="sys_user" reference_qual="roles=x_895127_freelance.freelance_role^EQ" reference_qual_condition="roles=x_895127_freelance.freelance_role^EQ" type="reference"/>
+        <element label="Time required" max_length="100" name="how_many_days" type="glide_duration"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="3" default="Pending" label="State" max_length="40" name="state" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Acepted" value="Acepted"/>
+                <element inactive_on_update="false" label="Completed" value="Completed"/>
                 <element inactive_on_update="false" label="Pending" value="Pending"/>
             </choice>
         </element>

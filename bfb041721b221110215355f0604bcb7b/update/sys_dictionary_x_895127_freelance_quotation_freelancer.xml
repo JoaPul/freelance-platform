@@ -16,7 +16,7 @@
         <column_label>Freelancer</column_label>
         <comments/>
         <create_roles/>
-        <default_value>gs.getUserID()</default_value>
+        <default_value/>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -38,7 +38,7 @@
         <name>x_895127_freelance_quotation</name>
         <next_element/>
         <primary>false</primary>
-        <read_only>false</read_only>
+        <read_only>true</read_only>
         <read_roles/>
         <reference display_value="" name="x_895127_freelance_freelance">x_895127_freelance_freelance</reference>
         <reference_cascade_rule/>

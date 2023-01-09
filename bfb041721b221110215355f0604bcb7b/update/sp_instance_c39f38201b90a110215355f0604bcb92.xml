@@ -3,36 +3,27 @@
         <active>true</active>
         <class_name/>
         <color>default</color>
-        <css>.panel-heading, .panel-footer {
-  background-color: rgba(138, 143, 160, 0.6);
-  border-bottom: 0px solid transparent;
-  color: #fff;
-}
-
-.panel {
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  background: none;
-}</css>
+        <css/>
         <glyph/>
         <id/>
-        <order>2</order>
+        <order>1</order>
         <roles/>
         <short_description/>
         <size>md</size>
         <sp_column display_value="2">f71c66ef477211105da1da97436d43a5</sp_column>
-        <sp_widget display_value="Language Switch">af0f73105b0122000d7ec7ad31f91a27</sp_widget>
+        <sp_widget display_value="fr_logo">b5cd7cac1b50a110215355f0604bcbcf</sp_widget>
         <sys_class_name>sp_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-11-02 18:17:38</sys_created_on>
-        <sys_id>f31c66ef477211105da1da97436d43aa</sys_id>
+        <sys_created_on>2023-01-06 16:15:57</sys_created_on>
+        <sys_id>c39f38201b90a110215355f0604bcb92</sys_id>
         <sys_name/>
         <sys_package display_value="Freelance Platform" source="x_895127_freelance">bfb041721b221110215355f0604bcb7b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope>
-        <sys_update_name>sp_instance_f31c66ef477211105da1da97436d43aa</sys_update_name>
+        <sys_update_name>sp_instance_c39f38201b90a110215355f0604bcb92</sys_update_name>
         <title/>
         <url/>
         <widget_parameters/>
     </sp_instance>
-    <sys_translated_text action="delete_multiple" query="documentkey=f31c66ef477211105da1da97436d43aa"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=c39f38201b90a110215355f0604bcb92"/>
 </record_update>
