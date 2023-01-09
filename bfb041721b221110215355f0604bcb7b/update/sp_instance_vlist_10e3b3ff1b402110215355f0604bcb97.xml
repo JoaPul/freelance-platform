@@ -9,7 +9,7 @@
         <filter/>
         <glyph>th-list</glyph>
         <id/>
-        <maximum_entries>5</maximum_entries>
+        <maximum_entries>10</maximum_entries>
         <order>1</order>
         <order_by/>
         <order_direction>asc</order_direction>
@@ -17,7 +17,7 @@
         <short_description/>
         <size>md</size>
         <sp_column display_value="1">ac8fe1d097a3111029d0b0efe153afd5</sp_column>
-        <sp_page/>
+        <sp_page display_value="form">ed5f8ec347730200ba13a5554ee49046</sp_page>
         <sp_widget display_value="Simple List">5b255672cb03020000f8d856634c9c28</sp_widget>
         <sys_class_name>sp_instance_vlist</sys_class_name>
         <sys_created_by>admin</sys_created_by>

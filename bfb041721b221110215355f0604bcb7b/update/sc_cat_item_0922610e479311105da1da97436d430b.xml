@@ -15,7 +15,7 @@
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
         <flow_designer_flow display_value="Project Flow">23e74c00476311105da1da97436d4321</flow_designer_flow>
-        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
+        <fulfillment_automation_level>fully_automated</fulfillment_automation_level>
         <group/>
         <hide_sp>false</hide_sp>
         <icon>3d1a11d8476311105da1da97436d4336</icon>
@@ -90,12 +90,12 @@
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-11-22 17:38:13</sys_created_on>
-        <sys_id>e1e22d0e479311105da1da97436d43be</sys_id>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-01-05 22:36:31</sys_created_on>
+        <sys_id>042d059c1b146110215355f0604bcb09</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-22 17:38:13</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-01-05 22:36:31</sys_updated_on>
         <table>sc_cat_item</table>
         <type>calculated</type>
     </fx_price>
@@ -121,7 +121,6 @@
         <chunk_size_bytes>700000</chunk_size_bytes>
         <compressed>true</compressed>
         <content_type>image/png</content_type>
-        <encryption_context/>
         <file_name>icon</file_name>
         <hash>75d956f6735e8d5ae5c1a3cae94f5ba6a7cb3b0def3a94e63ab8050f77ffe516</hash>
         <image_height>512</image_height>
@@ -161,7 +160,6 @@
         <chunk_size_bytes>700000</chunk_size_bytes>
         <compressed>true</compressed>
         <content_type>image/png</content_type>
-        <encryption_context/>
         <file_name>picture</file_name>
         <hash>00a5675050c236e516f1e4221094393e3414b1e901744793a61957178b079a6b</hash>
         <image_height>512</image_height>

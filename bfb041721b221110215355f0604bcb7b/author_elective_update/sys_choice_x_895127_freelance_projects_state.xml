@@ -33,6 +33,22 @@
             <element>state</element>
             <hint/>
             <inactive>false</inactive>
+            <label>Completed</label>
+            <language>en</language>
+            <name>x_895127_freelance_projects</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-01-05 22:16:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <value>Completed</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
             <label>Pending</label>
             <language>en</language>
             <name>x_895127_freelance_projects</name>

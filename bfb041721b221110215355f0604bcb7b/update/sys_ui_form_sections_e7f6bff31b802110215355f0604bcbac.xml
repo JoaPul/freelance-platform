@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="e7f6bff31b802110215355f0604bcbac" sys_domain="global" table="x_895127_freelance_projects" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-01-04 22:17:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>084f33bf1b802110215355f0604bcbed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_895127_freelance_projects" name="x_895127_freelance_projects" sys_domain="global" view="Default view">e7f6bff31b802110215355f0604bcbac</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_895127_freelance_projects" sys_domain="global" view="Default view">373f33bf1b802110215355f0604bcbaa</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-01-04 22:17:48</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_895127_freelance_projects</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-01-04 21:41:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e7f6bff31b802110215355f0604bcbac</sys_id>
+            <sys_name>x_895127_freelance_projects</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Freelance Platform" source="x_895127_freelance">bfb041721b221110215355f0604bcb7b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope>
+            <sys_update_name>sys_ui_form_sections_e7f6bff31b802110215355f0604bcbac</sys_update_name>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
