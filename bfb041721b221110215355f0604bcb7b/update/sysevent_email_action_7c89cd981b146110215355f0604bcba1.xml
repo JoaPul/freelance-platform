@@ -47,7 +47,8 @@
 <p>What will we do to correct problems?</p>
 <p>My Company will make no more than 3 changes without any extra charge.</p>
 <p>How long does the coverage last?</p>
-<p>The Warranty Period for Physical Goods purchased from My Company is 60 days<br />from the date of completion.&nbsp;</p>]]></message_html>
+<p>The Warranty Period for Physical Goods purchased from My Company is 60 days<br />from the date of completion.&nbsp;</p>
+<p>Freelance Email: ${freelance.email}</p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>fr_warranty_email</name>

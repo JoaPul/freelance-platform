@@ -235,12 +235,12 @@ li {
       <input class="input" type="text" id="lastName" name="lastName" ng-model="c.lastName" />
     </div>
     <div class="mb-3">
-      <h3>User ID</h3>
+      <h3>Username</h3>
       <input class="input" type="text" id="userID" name="userID" ng-model="c.userID" />
     </div>
     <div class="mb-3">
       <h3>Email</h3>
-      <input class="input" type="text" id="email" name="email" ng-model="c.email" />
+      <input class="input" type="email" id="email" name="email" ng-model="c.email" />
     </div>
    <!---- <div class="mb-3">
       <h3>Password</h3>

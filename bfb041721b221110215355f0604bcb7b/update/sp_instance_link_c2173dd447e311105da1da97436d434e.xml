@@ -15,7 +15,7 @@
         <sc_category/>
         <short_description>List of all your Projects</short_description>
         <size>md</size>
-        <sp_column display_value="1">46173dd447e311105da1da97436d4358</sp_column>
+        <sp_column display_value="3">06173dd447e311105da1da97436d4350</sp_column>
         <sp_page display_value="fr_projects">cf575694476711105da1da97436d438e</sp_page>
         <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
         <sys_class_name>sp_instance_link</sys_class_name>

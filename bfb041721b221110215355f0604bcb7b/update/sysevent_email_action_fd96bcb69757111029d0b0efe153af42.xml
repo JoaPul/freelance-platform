@@ -48,7 +48,7 @@
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
-        <recipient_fields>freelancer.user.email</recipient_fields>
+        <recipient_fields>freelancer.user</recipient_fields>
         <recipient_groups/>
         <recipient_users/>
         <reply_to/>

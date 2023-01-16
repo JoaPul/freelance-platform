@@ -46,8 +46,8 @@
 		"displayValue": ""
 	},
 	"secondary_fields": {
-		"value": "number,client,category,description,how_many_days",
-		"displayValue": "number,client,category,description,how_many_days"
+		"value": "client,category,description,how_many_days",
+		"displayValue": "client,category,description,how_many_days"
 	},
 	"rounded_images": {
 		"value": "",

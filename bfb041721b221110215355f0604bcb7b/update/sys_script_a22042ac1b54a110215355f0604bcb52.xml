@@ -12,7 +12,7 @@
         <change_fields>false</change_fields>
         <client_callable>false</client_callable>
         <collection>x_895127_freelance_projects</collection>
-        <condition/>
+        <condition>!(gs.hasRole('admin')||gs.hasRole("x_895127_freelance.client_role"))</condition>
         <description/>
         <execute_function>false</execute_function>
         <filter_condition/>
@@ -28,25 +28,23 @@
         <rest_variables/>
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
-    if (!gs.hasRole('admin')) {
-        var category = [];
-        if (gs.getUser().isMemberOf('web development')) {
-            category.push("web");
-        } 
-		if (gs.getUser().isMemberOf('app development')) {
-            category.push("app");
-        }
-		if (gs.getUser().isMemberOf('cyber security')) {
-            category.push("cs");
-        }
-		if (gs.getUser().isMemberOf('ServiceNow development')) {
-            category.push("sn");
-        }
-		if (gs.getUser().isMemberOf('other development')) {
-            category.push("ot");
-        }
-        var qc = current.addQuery('category', 'IN', category.join(','));
+    var category = [];
+    if (gs.getUser().isMemberOf('web development')) {
+        category.push("web");
     }
+    if (gs.getUser().isMemberOf('app development')) {
+        category.push("app");
+    }
+    if (gs.getUser().isMemberOf('cyber security')) {
+        category.push("cs");
+    }
+    if (gs.getUser().isMemberOf('ServiceNow development')) {
+        category.push("sn");
+    }
+    if (gs.getUser().isMemberOf('other development')) {
+        category.push("ot");
+    }
+    var qc = current.addQuery('category', 'IN', category.join(','));
     // Add your code here
 
 })(current, previous);]]></script>

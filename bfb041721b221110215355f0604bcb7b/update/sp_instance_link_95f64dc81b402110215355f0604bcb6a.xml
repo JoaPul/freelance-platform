@@ -15,7 +15,7 @@
         <sc_category/>
         <short_description>Projects Posted</short_description>
         <size>md</size>
-        <sp_column display_value="2">42173dd447e311105da1da97436d4361</sp_column>
+        <sp_column display_value="1">46173dd447e311105da1da97436d4358</sp_column>
         <sp_page display_value="fr_projects_posted_list">a827850c1b402110215355f0604bcbe8</sp_page>
         <sp_widget display_value="fr Posted projects">1bc6050c1b402110215355f0604bcbe6</sp_widget>
         <sys_class_name>sp_instance_link</sys_class_name>
