@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="INSERT_OR_UPDATE">
+        <operation>create</operation>
+        <source_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-01-17 17:14:08</sys_created_on>
+        <sys_id>2a6679cc1b606110215355f0604bcba6</sys_id>
+        <sys_name>sysapproval_approver</sys_name>
+        <sys_package display_value="Freelance Platform" source="x_895127_freelance">bfb041721b221110215355f0604bcb7b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Freelance Platform">bfb041721b221110215355f0604bcb7b</sys_scope>
+        <sys_update_name>sys_scope_privilege_2a6679cc1b606110215355f0604bcba6</sys_update_name>
+        <target_name>sysapproval_approver</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>sys_db_object</target_type>
+    </sys_scope_privilege>
+</record_update>

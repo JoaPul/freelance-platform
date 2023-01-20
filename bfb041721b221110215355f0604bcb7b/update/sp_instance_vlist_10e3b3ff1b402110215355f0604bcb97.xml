@@ -9,7 +9,7 @@
         <filter/>
         <glyph>th-list</glyph>
         <id/>
-        <maximum_entries>10</maximum_entries>
+        <maximum_entries/>
         <order>1</order>
         <order_by/>
         <order_direction>asc</order_direction>
@@ -57,8 +57,8 @@
 		"displayValue": ""
 	},
 	"hide_footer": {
-		"value": "",
-		"displayValue": ""
+		"value": "true",
+		"displayValue": "true"
 	},
 	"view": {
 		"value": "",
